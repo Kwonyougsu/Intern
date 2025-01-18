@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Arrow : MonoBehaviour
 {
-    public float damage = 100f;
+    public float damage = 200f;
     private PlayerAttack player;
 
     public void SetOwner(PlayerAttack playerAttack)

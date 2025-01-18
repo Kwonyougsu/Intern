@@ -37,7 +37,6 @@ public class PlayerAttack : MonoBehaviour
         {
             if (hitCollider.CompareTag("Monster")) // 적 태그 확인
             {
-                // 공격 애니메이션 트리거
                 StartCoroutine(AttackWithDelay(hitCollider.transform.position));
                 currenttime = 0f;  // 쿨타임 초기화
                 break;
@@ -47,7 +46,7 @@ public class PlayerAttack : MonoBehaviour
 
     private IEnumerator AttackWithDelay(Vector2 targetPosition)
     {
-        player.animator.SetTrigger("Attack"); // 애니메이션 트리거
+        player.animator.SetTrigger("Attack");
         yield return null;
     }
 

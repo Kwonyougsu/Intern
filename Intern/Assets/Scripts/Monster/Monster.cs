@@ -21,13 +21,14 @@ public class Monster : MonoBehaviour, IPointerClickHandler
     public Image hpBar;
     public event Action<GameObject> OnMonsterDeath;
     public Sprite sendimage;
-
+    int stagecount;
     private void Awake()
     {
         monsterstateMachine = new MonsterStateMachine(this);
         animator = GetComponent<Animator>();
         monsterManager = GameManager.Instance.monsterManager;
         monsterImage = GetComponent<SpriteRenderer>();
+        stagecount = GameManager.Instance.stageCount;
     }
 
     public void Initialize(MonsterInfo info)
@@ -40,6 +41,11 @@ public class Monster : MonoBehaviour, IPointerClickHandler
 
     public void OnEnable()
     {
+        if(stagecount >= 2)
+        {
+            maxHealth = maxHealth * stagecount;
+            speed = maxHealth * stagecount;
+        }
         currentHealth = maxHealth;
         death = false;
         monsterstateMachine.ChangedState(monsterstateMachine.moveState);
@@ -79,6 +85,8 @@ public class Monster : MonoBehaviour, IPointerClickHandler
         gameObject.SetActive(false);
         OnMonsterDeath?.Invoke(this.gameObject);
         monsterManager.isMonsterAlive = false;
+        GameManager.Instance.monsterKillcount++;
+        GameManager.Instance.CountCheck();
         yield return null;
     }
 

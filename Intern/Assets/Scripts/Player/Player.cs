@@ -9,4 +9,5 @@ public class Player : MonoBehaviour
     {
         animator = GetComponent<Animator>();
     }
+
 }

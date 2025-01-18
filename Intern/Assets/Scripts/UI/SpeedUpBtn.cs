@@ -1,4 +1,5 @@
 using System;
+using TMPro;
 using UnityEngine;
 
 public class SpeedUpBtn : MonoBehaviour
@@ -6,7 +7,12 @@ public class SpeedUpBtn : MonoBehaviour
     private bool isSpeedUp = false;
     public GameObject speedupbtn;
     public GameObject normalupbtn;
+    public TextMeshProUGUI stagecount;
 
+    private void Start()
+    {
+        stagecountupdate();
+    }
     public void ToggleSpeed()
     {
         if (isSpeedUp)
@@ -23,5 +29,9 @@ public class SpeedUpBtn : MonoBehaviour
         }
 
         isSpeedUp = !isSpeedUp;
+    }
+    public void stagecountupdate()
+    {
+        stagecount.text = "Stage: "+GameManager.Instance.stageCount.ToString();
     }
 }
