@@ -21,8 +21,9 @@ public class MonsterDataLoader : MonoBehaviour
                 MonsterInfo monster = new MonsterInfo(
                     row["Name"],
                     row["Grade"],
+                    float.Parse(row["Speed"]),
                     int.Parse(row["Health"]),
-                    int.Parse(row["Speed"])
+                    row["Prefab"]
                 );
                 monsterList.Add(monster);
 
