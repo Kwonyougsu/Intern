@@ -344,6 +344,7 @@ MonoBehaviour:
   currentHealth: 0
   death: 0
   hpBar: {fileID: 7675841614402564508}
+  sendimage: {fileID: 0}
 --- !u!1 &7901640314208379873
 GameObject:
   m_ObjectHideFlags: 0

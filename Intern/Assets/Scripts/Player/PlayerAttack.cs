@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    public Player player;
-    public float attackRadius = 10f;
-    public float attackCooldown = 1.0f;    // 공격 쿨타임
-    private float currenttime = 0f;        // 쿨타임을 위한 변수
+    Player player;
+    float attackRadius;
+    float attackCooldown;    // 공격 쿨타임
+    float currenttime;        // 쿨타임을 위한 변수
 
     public ProjectileObjectPool ProjectileObjectPool;
     
@@ -15,12 +15,14 @@ public class PlayerAttack : MonoBehaviour
     {
         player = GetComponent<Player>();
         ProjectileObjectPool = GameManager.Instance.projectileObjectPool;
+        attackRadius = 14f;
+        attackCooldown = 1f;
+        currenttime = 0f;
     }
 
     void Update()
     {
         currenttime += Time.deltaTime; // 쿨타임 카운팅
-
         AutoAttack();
     }
 

@@ -46,15 +46,15 @@ public class MonsterObjectPool : MonoBehaviour
     }
 
     // 풀을 초기화하고 모든 몬스터를 제거
-    //public void ClearPool()
-    //{
-    //    foreach (var monster in pool)
-    //    {
-    //        Destroy(monster);
-    //    }
-    //    pool.Clear();
-    //    
-    //}
+    public void ClearPool()
+    {
+        foreach (var monster in pool)
+        {
+            Destroy(monster);
+        }
+        pool.Clear();
+        
+    }
 
 }
 

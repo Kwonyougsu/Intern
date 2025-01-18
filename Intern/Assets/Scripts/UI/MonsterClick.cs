@@ -32,7 +32,13 @@ public class MonsterClick : MonoBehaviour
 
     public void CloseInfoPanel()
     {
-        Time.timeScale = 1f;
+        if(UIManager.Instance.speedUpBtn.speedupbtn.activeSelf)
+        {
+            Time.timeScale = 1f;
+        }
+        else Time.timeScale = 2f;
+
+        
         blackScreen.SetActive(false);
         infoPanel.SetActive(false);
     }

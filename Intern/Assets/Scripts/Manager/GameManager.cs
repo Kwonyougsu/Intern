@@ -22,6 +22,7 @@ public class GameManager : Singleton<GameManager>
     {
         if(monsterKillcount >= 5)
         {
+            Time.timeScale = 0f;
             UIManager.Instance.endPanel.OpenPanel();
         }
     }

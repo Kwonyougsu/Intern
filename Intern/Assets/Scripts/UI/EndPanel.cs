@@ -5,6 +5,7 @@ public class EndPanel : MonoBehaviour
 {
     public GameObject stageclearpanel;
     public GameObject endpanel;
+
     private void Start()
     {
         stageclearpanel.SetActive(false);
@@ -13,15 +14,22 @@ public class EndPanel : MonoBehaviour
     public void OpenPanel()
     {
         stageclearpanel.SetActive(true);
-        Time.timeScale = 0f;
     }
 
     public void Clickcontibtn()
     {
         GameManager.Instance.stageCount++;
         GameManager.Instance.monsterKillcount = 0;
-        Time.timeScale = 1f;
+        if (UIManager.Instance.speedUpBtn.speedupbtn.activeSelf)
+        {
+            Time.timeScale = 1f;
+        }
+        else Time.timeScale = 2f;
         UIManager.Instance.speedUpBtn.stagecountupdate();
+        stageclearpanel.SetActive(false);
+        GameManager.Instance.monsterManager.objectPool.ClearPool();
+        GameManager.Instance.monsterManager.Start();
+
     }
 
     public void Clickendbtn()

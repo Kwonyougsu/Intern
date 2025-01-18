@@ -17,7 +17,7 @@ public class MonsterManager : MonoBehaviour
         dataLoader = GetComponent<MonsterDataLoader>();
     }
 
-    private void Start()
+    public void Start()
     {
         AddAllMonstersToPool();
         SpawnMonster();
@@ -63,8 +63,8 @@ public class MonsterManager : MonoBehaviour
         Monster monsterComponent = monster.GetComponent<Monster>();
         if (monsterComponent != null)
         {
-            monsterComponent.Initialize(monsterInfo); 
-            monsterComponent.OnMonsterDeath += MonsterDeath; 
+            monsterComponent.Initialize(monsterInfo);
+            monsterComponent.OnMonsterDeath += MonsterDeath;
         }
 
         objectPool.AddToPool(monster); // 풀에 추가
@@ -78,21 +78,24 @@ public class MonsterManager : MonoBehaviour
 
     public void SpawnMonster()
     {
-        // 풀에서 몬스터를 꺼내서 활성화
-        GameObject spawnedMonster = objectPool.PoolGetMonster();
-
-        if (spawnedMonster != null)
+        if (GameManager.Instance.monsterKillcount < 5)
         {
-            // 스폰 위치 설정
-            spawnedMonster.transform.position = GetSpawnPosition();
+            // 풀에서 몬스터를 꺼내서 활성화
+            GameObject spawnedMonster = objectPool.PoolGetMonster();
 
-            // 몬스터 활성화
-            spawnedMonster.SetActive(true);
-            isMonsterAlive = true;
-        }
-        else
-        {
-            Debug.LogWarning("풀에 더 이상 몬스터가 없습니다.");
+            if (spawnedMonster != null)
+            {
+                // 스폰 위치 설정
+                spawnedMonster.transform.position = GetSpawnPosition();
+
+                // 몬스터 활성화
+                spawnedMonster.SetActive(true);
+                isMonsterAlive = true;
+            }
+            else
+            {
+                Debug.LogWarning("풀에 더 이상 몬스터가 없습니다.");
+            }
         }
     }
 

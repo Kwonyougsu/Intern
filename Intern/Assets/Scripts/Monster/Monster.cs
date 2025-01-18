@@ -44,7 +44,7 @@ public class Monster : MonoBehaviour, IPointerClickHandler
         if(stagecount >= 2)
         {
             maxHealth = maxHealth * stagecount;
-            speed = maxHealth * stagecount;
+            speed = speed * stagecount;
         }
         currentHealth = maxHealth;
         death = false;
@@ -79,26 +79,20 @@ public class Monster : MonoBehaviour, IPointerClickHandler
     public IEnumerator Die()
     {
         death = true;
-        ResetAllBools(animator);
+        ResetAllBools();
         animator.SetBool("Die", true);
-        yield return new WaitForSecondsRealtime(0.5f);
+        yield return new WaitForSecondsRealtime(0.3f);
         gameObject.SetActive(false);
-        OnMonsterDeath?.Invoke(this.gameObject);
         monsterManager.isMonsterAlive = false;
         GameManager.Instance.monsterKillcount++;
         GameManager.Instance.CountCheck();
+        OnMonsterDeath?.Invoke(this.gameObject);
         yield return null;
     }
 
-    public void ResetAllBools(Animator animator)
+    public void ResetAllBools()
     {
-        foreach (AnimatorControllerParameter parameter in animator.parameters)
-        {
-            if (parameter.type == AnimatorControllerParameterType.Bool)
-            {
-                animator.SetBool(parameter.name, false);
-            }
-        }
+        animator.SetBool("Move", false);
     }
 
     public void OnPointerClick(PointerEventData eventData)
