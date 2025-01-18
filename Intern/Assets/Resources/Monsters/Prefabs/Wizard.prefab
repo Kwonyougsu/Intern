@@ -334,14 +334,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03bc629947fa16c42bda863baf0a45ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 0}
-  Name: 
-  Grade: 
-  Speed: 0
-  MaxHealth: 0
   monsterManager: {fileID: 0}
-  HpBar: {fileID: 7675841614402564508}
-  CurrentHealth: 0
+  animator: {fileID: 0}
+  monsterImage: {fileID: 0}
+  monsterName: 
+  grade: 
+  speed: 0
+  maxHealth: 0
+  currentHealth: 0
+  death: 0
+  hpBar: {fileID: 7675841614402564508}
 --- !u!1 &7901640314208379873
 GameObject:
   m_ObjectHideFlags: 0

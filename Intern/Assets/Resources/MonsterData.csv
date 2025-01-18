@@ -1,6 +1,6 @@
-Name,Grade,Speed,Health,Prefab
-Skeleton,ÀÏ¹İ,0.5,50,Monsters/Prefabs/Skeleton
-Elite Orc,·¹¾î,1,100,Monsters/Prefabs/Elite_Orc
-Wizard,¸ÅÁ÷,0.8,200,Monsters/Prefabs/Wizard
-Werebear,Àü¼³,2,500,Monsters/Prefabs/Werebear
-Orc rider,¿µ¿õ,2.5,1000,Monsters/Prefabs/Orc_rider
+ï»¿Name,Grade,Speed,Health,Prefab
+Skeleton,ì¼ë°˜,0.5,50,Monsters/Prefabs/Skeleton
+Elite Orc,ë ˆì–´,1,100,Monsters/Prefabs/Elite_Orc
+Wizard,ë§¤ì§,0.8,200,Monsters/Prefabs/Wizard
+Werebear,ì „ì„¤,2,500,Monsters/Prefabs/Werebear
+Orc rider,ì˜ì›…,2.5,1000,Monsters/Prefabs/Orc_rider

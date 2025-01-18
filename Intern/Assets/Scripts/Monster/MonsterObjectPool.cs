@@ -39,8 +39,8 @@ public class MonsterObjectPool : MonoBehaviour
         Monster monsterComponent = monster.GetComponent<Monster>();
         if (monsterComponent != null)
         {
-            monsterComponent.CurrentHealth = monsterComponent.MaxHealth; 
-            monsterComponent.Death = false; 
+            monsterComponent.currentHealth = monsterComponent.maxHealth; 
+            monsterComponent.death = false; 
         }
         pool.Enqueue(monster);
     }

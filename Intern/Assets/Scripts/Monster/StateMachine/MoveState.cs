@@ -25,7 +25,7 @@ public class MoveState : MonsterBaseState
         stateMachine.Monster.transform.position = Vector3.MoveTowards(
             stateMachine.Monster.transform.position,
             targetPosition,
-            stateMachine.Monster.Speed * Time.deltaTime);
+            stateMachine.Monster.speed * Time.deltaTime);
     }
 
     public override void Exit()
