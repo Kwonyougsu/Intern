@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,8 +8,14 @@ public class ProjectileObjectPool : MonoBehaviour
 
     private Queue<GameObject> arrowPool = new Queue<GameObject>();
 
+    private Transform ProjectileCreate;
+
     private void Awake()
     {
+        GameObject parentObject = new GameObject("Arrow");
+        ProjectileCreate = parentObject.transform;
+        parentObject.SetActive(true);
+
         InitializePool();
     }
 
@@ -20,11 +25,12 @@ public class ProjectileObjectPool : MonoBehaviour
         {
             GameObject arrow = Instantiate(arrowPrefab);
             arrow.SetActive(false);
+            arrow.transform.SetParent(ProjectileCreate);  // 화살을 부모 객체에 추가
             arrowPool.Enqueue(arrow);
         }
     }
 
-    public GameObject GetArrow()
+    public GameObject PoolGetArrow()
     {
         if (arrowPool.Count > 0)
         {
@@ -42,6 +48,7 @@ public class ProjectileObjectPool : MonoBehaviour
     public void ReturnArrow(GameObject arrow)
     {
         arrow.SetActive(false);
+        arrow.transform.SetParent(ProjectileCreate);  // 화살을 부모 객체에 다시 설정
         arrowPool.Enqueue(arrow);
     }
 }

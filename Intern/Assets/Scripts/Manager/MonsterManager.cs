@@ -8,8 +8,8 @@ public class MonsterManager : MonoBehaviour
     public MonsterDataLoader dataLoader; // 데이터 로더
     public GameObject Spawnpoint;
 
-    // 프리팹 캐시를 위한 딕셔너리
     private Dictionary<string, GameObject> prefabCache = new Dictionary<string, GameObject>();
+    public bool isMonsterAlive = false; // 몬스터가 살아있는지 여부
 
     private void Awake()
     {
@@ -19,11 +19,8 @@ public class MonsterManager : MonoBehaviour
 
     private void Start()
     {
-        // CSV 데이터를 기반으로 몬스터 풀에 추가
         AddAllMonstersToPool();
-
-        // 원하는 개수의 몬스터를 바로 소환
-        SpawnMonster(2); 
+        SpawnMonster();
     }
 
     private void AddAllMonstersToPool()
@@ -31,11 +28,9 @@ public class MonsterManager : MonoBehaviour
         // dataLoader의 모든 몬스터 데이터를 풀에 추가
         foreach (MonsterInfo monsterInfo in dataLoader.monsterList)
         {
-            // 프리팹 가져오기
             GameObject monsterPrefab = LoadMonsterPrefab(monsterInfo);
             if (monsterPrefab != null)
             {
-                // 풀에 몬스터 추가
                 InitializeObjectPool(monsterPrefab, monsterInfo);
             }
         }
@@ -68,35 +63,36 @@ public class MonsterManager : MonoBehaviour
         Monster monsterComponent = monster.GetComponent<Monster>();
         if (monsterComponent != null)
         {
-            monsterComponent.Initialize(monsterInfo); // 몬스터 데이터로 초기화
+            monsterComponent.Initialize(monsterInfo); 
+            monsterComponent.OnMonsterDeath += MonsterDeath; 
         }
 
         objectPool.AddToPool(monster); // 풀에 추가
     }
 
-    public void SpawnMonster(int count)
+    private void MonsterDeath(GameObject deadMonster)
     {
-        int spawnedCount = 0;
+        objectPool.ReturnMonster(deadMonster);
+        SpawnMonster();
+    }
 
+    public void SpawnMonster()
+    {
         // 풀에서 몬스터를 꺼내서 활성화
-        while (spawnedCount < count)
+        GameObject spawnedMonster = objectPool.PoolGetMonster();
+
+        if (spawnedMonster != null)
         {
-            GameObject spawnedMonster = objectPool.PoolGetMonster();
+            // 스폰 위치 설정
+            spawnedMonster.transform.position = GetSpawnPosition();
 
-            if (spawnedMonster != null)
-            {
-                // 스폰 위치 설정
-                spawnedMonster.transform.position = GetSpawnPosition();
-
-                // 몬스터 활성화
-                spawnedMonster.SetActive(true);
-                spawnedCount++;
-            }
-            else
-            {
-                Debug.LogWarning("풀에 더 이상 몬스터가 없습니다.");
-                break;
-            }
+            // 몬스터 활성화
+            spawnedMonster.SetActive(true);
+            isMonsterAlive = true;
+        }
+        else
+        {
+            Debug.LogWarning("풀에 더 이상 몬스터가 없습니다.");
         }
     }
 
@@ -104,4 +100,6 @@ public class MonsterManager : MonoBehaviour
     {
         return Spawnpoint.transform.position;
     }
+
+
 }

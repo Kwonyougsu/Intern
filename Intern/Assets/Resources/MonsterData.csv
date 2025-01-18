@@ -1,6 +1,6 @@
 Name,Grade,Speed,Health,Prefab
 Skeleton,일반,0.5,50,Monsters/Prefabs/Skeleton
-Elite Orc,레어,1,100,Monsters/Prefabs/Skeleton
-Wizard,매직,0.8,200,Monsters/Prefabs/Skeleton
-Werebear,전설,2,500,Monsters/Prefabs/Skeleton
-Orc rider,영웅,2.5,1000,Monsters/Prefabs/Skeleton
+Elite Orc,레어,1,100,Monsters/Prefabs/Elite_Orc
+Wizard,매직,0.8,200,Monsters/Prefabs/Wizard
+Werebear,전설,2,500,Monsters/Prefabs/Werebear
+Orc rider,영웅,2.5,1000,Monsters/Prefabs/Orc_rider

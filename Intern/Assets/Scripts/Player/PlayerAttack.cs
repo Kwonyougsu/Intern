@@ -1,69 +1,89 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    public float attackRadius = 5f;      
-    public float attackCooldown = 1f;    // 공격 쿨타임
+    public Player player;
+    public float attackRadius = 10f;
+    public float attackCooldown = 1.0f;    // 공격 쿨타임
+    private float currenttime = 0f;        // 쿨타임을 위한 변수
 
-    private float lastAttackTime;
-
-    public ProjectileObjectPool ProjectileObjectPool; 
-
-    private void Awake()
+    public ProjectileObjectPool ProjectileObjectPool;
+    
+    //호출순서 문제로 start
+    private void Start()
     {
+        player = GetComponent<Player>();
         ProjectileObjectPool = GameManager.Instance.projectileObjectPool;
     }
+
     void Update()
     {
+        currenttime += Time.deltaTime; // 쿨타임 카운팅
+
         AutoAttack();
     }
 
     private void AutoAttack()
     {
-        // 공격 쿨타임 체크
-        if (Time.time < lastAttackTime + attackCooldown)
+        // 쿨타임 체크
+        if (currenttime < attackCooldown)
             return;
 
         // 공격 범위 내 적 탐지
-        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, attackRadius);
+        Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, attackRadius, LayerMask.GetMask("Monster"));
 
         foreach (Collider2D hitCollider in hitColliders)
         {
             if (hitCollider.CompareTag("Monster")) // 적 태그 확인
             {
-                // 화살 발사
-                FireArrow(hitCollider.transform.position);
-
-                // 공격 후 쿨타임 갱신
-                lastAttackTime = Time.time;
-                break; 
+                // 공격 애니메이션 트리거
+                StartCoroutine(AttackWithDelay(hitCollider.transform.position));
+                currenttime = 0f;  // 쿨타임 초기화
+                break;
             }
         }
     }
 
-    private void FireArrow(Vector2 targetPosition)
+    private IEnumerator AttackWithDelay(Vector2 targetPosition)
     {
-        GameObject arrow = ProjectileObjectPool.GetArrow();
-        if (arrow != null)
+        player.animator.SetTrigger("Attack"); // 애니메이션 트리거
+        yield return null;
+    }
+
+    public void FireArrow()
+    {
+        if (ProjectileObjectPool != null)
         {
-            // 화살 위치와 방향 설정
-            arrow.transform.position = transform.position;
-            Vector2 direction = (targetPosition - (Vector2)transform.position).normalized;
+            GameObject arrow = ProjectileObjectPool.PoolGetArrow();
 
-            Rigidbody2D rb = arrow.GetComponent<Rigidbody2D>();
-            if (rb != null)
+            if (arrow != null)
             {
-                float arrowSpeed = 10f; // 화살 속도
-                rb.velocity = direction * arrowSpeed;
-            }
+                // 화살 위치와 방향 설정
+                arrow.transform.position = transform.position;
+                Vector2 direction = Vector2.right;
 
-            Arrow arrowComponent = arrow.GetComponent<Arrow>();
-            if (arrowComponent != null)
-            {
-                arrowComponent.SetOwner(this);
+                Rigidbody2D rb = arrow.GetComponent<Rigidbody2D>();
+                if (rb != null)
+                {
+                    float arrowSpeed = 10f; // 화살 속도
+                    rb.velocity = direction * arrowSpeed;
+                }
+
+                Arrow arrowComponent = arrow.GetComponent<Arrow>();
+                if (arrowComponent != null)
+                {
+                    arrowComponent.SetOwner(this);
+                }
             }
+            else
+            {
+                Debug.Log("화살 없음");
+            }
+        }
+        else
+        {
+            Debug.Log("오브젝트 풀 없음");
         }
     }
 
@@ -71,7 +91,6 @@ public class PlayerAttack : MonoBehaviour
     {
         ProjectileObjectPool.ReturnArrow(arrow);
     }
-
 
     private void OnDrawGizmosSelected()
     {

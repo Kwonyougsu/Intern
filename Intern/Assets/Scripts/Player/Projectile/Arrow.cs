@@ -3,10 +3,16 @@ using UnityEngine;
 public class Arrow : MonoBehaviour
 {
     public float damage = 100f;
-    private PlayerAttack player; 
+    private PlayerAttack player;
+
     public void SetOwner(PlayerAttack playerAttack)
     {
         player = playerAttack; // PlayerAttack 참조 저장
+    }
+
+    private void Start()
+    {
+        Invoke("ReturnToPool", 3f);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -18,11 +24,16 @@ public class Arrow : MonoBehaviour
             {
                 monster.TakeDamage(damage);
 
-                if (player != null)
-                {
-                    player.ReturnArrowToPool(gameObject);
-                }
+                ReturnToPool();
             }
+        }
+    }
+
+    private void ReturnToPool()
+    {
+        if (player != null)
+        {
+            player.ReturnArrowToPool(gameObject); 
         }
     }
 }

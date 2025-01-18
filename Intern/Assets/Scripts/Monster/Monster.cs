@@ -1,62 +1,85 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Monster : MonoBehaviour
 {
     public MonsterStateMachine monsterstateMachine;
+    public MonsterManager monsterManager;
     public Animator animator;
-    CapsuleCollider2D capsuleCollider;
+
     public string Name;
     public string Grade;
     public float Speed;
-    public int Health;
+    public int MaxHealth;
+    public int CurrentHealth;
+    public bool Death;
+    public Image HpBar;
+    public event Action<GameObject> OnMonsterDeath;
+
 
     private void Awake()
     {
         monsterstateMachine = new MonsterStateMachine(this);
         animator = GetComponent<Animator>();
-        capsuleCollider = GetComponent<CapsuleCollider2D>();
+        monsterManager = GameManager.Instance.monsterManager;
     }
+
     public void Initialize(MonsterInfo info)
     {
         Name = info.Name;
         Grade = info.Grade;
-        Health = info.Health;
+        MaxHealth = info.Health;
         Speed = info.Speed;
+
     }
 
     public void OnEnable()
     {
+        CurrentHealth = MaxHealth;
+        Death = false;
         monsterstateMachine.ChangedState(monsterstateMachine.moveState);
+    }
+
+    private void Update()
+    {
+        HpBar.fillAmount = (float)CurrentHealth / (float)MaxHealth;
     }
     private void FixedUpdate()
     {
-        monsterstateMachine.Update();
+        if(!Death)
+        {
+            monsterstateMachine.Update();
+        }
     }
 
     public void TakeDamage(float damage)
     {
-        Health -= (int)damage;
+        if (Death) return; 
 
-        if (Health <= 0)
+        CurrentHealth -= (int)damage;
+
+        if (CurrentHealth <= 0)
         {
             StartCoroutine(Die());
-            Die();
         }
     }
 
+
     public IEnumerator Die()
     {
-        Debug.Log("ав╬З╢ы");
+        Death = true;
         ResetAllBools(animator);
-        yield return new WaitForSecondsRealtime(0.5f);
         animator.SetBool("Die", true);
+        yield return new WaitForSecondsRealtime(0.5f);
         gameObject.SetActive(false);
-        //monsterManager.objectPool.ReturnMonster(this.gameObject);
+        OnMonsterDeath?.Invoke(this.gameObject);
+        monsterManager.isMonsterAlive = false;
         yield return null;
     }
+
+
 
     public void ResetAllBools(Animator animator)
     {

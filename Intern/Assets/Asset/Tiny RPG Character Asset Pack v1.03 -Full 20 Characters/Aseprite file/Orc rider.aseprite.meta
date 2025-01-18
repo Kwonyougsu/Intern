@@ -2,7 +2,47 @@ fileFormatVersion: 2
 guid: 609c3ae7e7a474548a853ff08ef237c8
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack01
+    second: {fileID: 7400000, guid: c0be3d948c008664b8e35cb253d83467, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack02
+    second: {fileID: 7400000, guid: 1c96b811cb67df94686f6beda912345c, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack03
+    second: {fileID: 7400000, guid: 0703b3219237e9046a3f5e94eea61c07, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Block
+    second: {fileID: 7400000, guid: 62a0b5c262091df4dbe385d1feb3a897, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Death
+    second: {fileID: 7400000, guid: 5f7a15753a63dde4dbc3a51e222ad64e, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Hurt
+    second: {fileID: 7400000, guid: 81393f1fcfe58c749b280c08445f2ff6, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Idle
+    second: {fileID: 7400000, guid: a5cb69408ae16f44aa4945dbec95aede, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Walk
+    second: {fileID: 7400000, guid: ebd9066f2879fa4489440b6de8385b6b, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -97,7 +137,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638728316708157198
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,8 +163,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Orc rider_Frame_0
     originalName: 
-    pivot: {x: 0.40625, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -143,8 +183,8 @@ ScriptedImporter:
     uvTransform: {x: 453, y: 93}
   - name: Orc rider_Frame_1
     originalName: 
-    pivot: {x: 0.40625, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -163,8 +203,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 151}
   - name: Orc rider_Frame_2
     originalName: 
-    pivot: {x: 0.41935483, y: -1.25}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -183,8 +223,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 190}
   - name: Orc rider_Frame_3
     originalName: 
-    pivot: {x: 0.41935483, y: -1.25}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -203,8 +243,8 @@ ScriptedImporter:
     uvTransform: {x: 43, y: 190}
   - name: Orc rider_Frame_4
     originalName: 
-    pivot: {x: 0.41935483, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -223,8 +263,8 @@ ScriptedImporter:
     uvTransform: {x: 44, y: 151}
   - name: Orc rider_Frame_5
     originalName: 
-    pivot: {x: 0.41935483, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -243,8 +283,8 @@ ScriptedImporter:
     uvTransform: {x: 83, y: 151}
   - name: Orc rider_Frame_14
     originalName: 
-    pivot: {x: 0.40625, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -263,8 +303,8 @@ ScriptedImporter:
     uvTransform: {x: 82, y: 190}
   - name: Orc rider_Frame_16
     originalName: 
-    pivot: {x: 0.4333333, y: -1.3793104}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -283,8 +323,8 @@ ScriptedImporter:
     uvTransform: {x: 331, y: 4}
   - name: Orc rider_Frame_17
     originalName: 
-    pivot: {x: 0.41935483, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -303,8 +343,8 @@ ScriptedImporter:
     uvTransform: {x: 122, y: 151}
   - name: Orc rider_Frame_18
     originalName: 
-    pivot: {x: 0.30232555, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -323,8 +363,8 @@ ScriptedImporter:
     uvTransform: {x: 141, y: 93}
   - name: Orc rider_Frame_19
     originalName: 
-    pivot: {x: 0.30232555, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -343,8 +383,8 @@ ScriptedImporter:
     uvTransform: {x: 192, y: 93}
   - name: Orc rider_Frame_20
     originalName: 
-    pivot: {x: 0.3095238, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -363,8 +403,8 @@ ScriptedImporter:
     uvTransform: {x: 243, y: 93}
   - name: Orc rider_Frame_21
     originalName: 
-    pivot: {x: 0.39393938, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -383,8 +423,8 @@ ScriptedImporter:
     uvTransform: {x: 371, y: 93}
   - name: Orc rider_Frame_23
     originalName: 
-    pivot: {x: 0.41935483, y: -1.25}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -403,8 +443,8 @@ ScriptedImporter:
     uvTransform: {x: 122, y: 190}
   - name: Orc rider_Frame_24
     originalName: 
-    pivot: {x: 0.41935483, y: -1.111111}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -423,8 +463,8 @@ ScriptedImporter:
     uvTransform: {x: 293, y: 93}
   - name: Orc rider_Frame_25
     originalName: 
-    pivot: {x: 0.40625, y: -0.9302325}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -443,8 +483,8 @@ ScriptedImporter:
     uvTransform: {x: 61, y: 93}
   - name: Orc rider_Frame_26
     originalName: 
-    pivot: {x: 0.26530612, y: -0.8}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -463,8 +503,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 93}
   - name: Orc rider_Frame_27
     originalName: 
-    pivot: {x: 0.22033899, y: -0.627907}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -483,8 +523,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 42}
   - name: Orc rider_Frame_28
     originalName: 
-    pivot: {x: 0.23636363, y: -0.75}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -503,8 +543,8 @@ ScriptedImporter:
     uvTransform: {x: 71, y: 42}
   - name: Orc rider_Frame_29
     originalName: 
-    pivot: {x: 0.26530612, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -523,8 +563,8 @@ ScriptedImporter:
     uvTransform: {x: 443, y: 42}
   - name: Orc rider_Frame_30
     originalName: 
-    pivot: {x: 0.39393938, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -543,8 +583,8 @@ ScriptedImporter:
     uvTransform: {x: 412, y: 93}
   - name: Orc rider_Frame_31
     originalName: 
-    pivot: {x: 0.40625, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -563,8 +603,8 @@ ScriptedImporter:
     uvTransform: {x: 161, y: 190}
   - name: Orc rider_Frame_32
     originalName: 
-    pivot: {x: 0.41935483, y: -1.25}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -583,8 +623,8 @@ ScriptedImporter:
     uvTransform: {x: 201, y: 190}
   - name: Orc rider_Frame_33
     originalName: 
-    pivot: {x: 0.41935483, y: -1.111111}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -603,8 +643,8 @@ ScriptedImporter:
     uvTransform: {x: 332, y: 93}
   - name: Orc rider_Frame_34
     originalName: 
-    pivot: {x: 0.40625, y: -0.9302325}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -623,8 +663,8 @@ ScriptedImporter:
     uvTransform: {x: 101, y: 93}
   - name: Orc rider_Frame_35
     originalName: 
-    pivot: {x: 0.34210524, y: -0.9756098}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -643,8 +683,8 @@ ScriptedImporter:
     uvTransform: {x: 397, y: 42}
   - name: Orc rider_Frame_36
     originalName: 
-    pivot: {x: 0.22807017, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -663,8 +703,8 @@ ScriptedImporter:
     uvTransform: {x: 267, y: 42}
   - name: Orc rider_Frame_37
     originalName: 
-    pivot: {x: 0.48235294, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -683,8 +723,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Orc rider_Frame_38
     originalName: 
-    pivot: {x: 0.69491524, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -703,8 +743,8 @@ ScriptedImporter:
     uvTransform: {x: 134, y: 42}
   - name: Orc rider_Frame_39
     originalName: 
-    pivot: {x: 0.6551724, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -723,8 +763,8 @@ ScriptedImporter:
     uvTransform: {x: 201, y: 42}
   - name: Orc rider_Frame_40
     originalName: 
-    pivot: {x: 0.22807017, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -743,8 +783,8 @@ ScriptedImporter:
     uvTransform: {x: 332, y: 42}
   - name: Orc rider_Frame_41
     originalName: 
-    pivot: {x: 0.41935483, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -763,8 +803,8 @@ ScriptedImporter:
     uvTransform: {x: 438, y: 151}
   - name: Orc rider_Frame_42
     originalName: 
-    pivot: {x: 0.40625, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -783,8 +823,8 @@ ScriptedImporter:
     uvTransform: {x: 240, y: 190}
   - name: Orc rider_Frame_43
     originalName: 
-    pivot: {x: 0.41935483, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -803,8 +843,8 @@ ScriptedImporter:
     uvTransform: {x: 477, y: 151}
   - name: Orc rider_Frame_44
     originalName: 
-    pivot: {x: 0.41935483, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -823,8 +863,8 @@ ScriptedImporter:
     uvTransform: {x: 97, y: 4}
   - name: Orc rider_Frame_45
     originalName: 
-    pivot: {x: 0.40625, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -843,8 +883,8 @@ ScriptedImporter:
     uvTransform: {x: 278, y: 151}
   - name: Orc rider_Frame_46
     originalName: 
-    pivot: {x: 0.40625, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -863,8 +903,8 @@ ScriptedImporter:
     uvTransform: {x: 318, y: 151}
   - name: Orc rider_Frame_47
     originalName: 
-    pivot: {x: 0.40625, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -883,8 +923,8 @@ ScriptedImporter:
     uvTransform: {x: 358, y: 151}
   - name: Orc rider_Frame_48
     originalName: 
-    pivot: {x: 0.41935483, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -903,8 +943,8 @@ ScriptedImporter:
     uvTransform: {x: 136, y: 4}
   - name: Orc rider_Frame_49
     originalName: 
-    pivot: {x: 0.41935483, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -923,8 +963,8 @@ ScriptedImporter:
     uvTransform: {x: 175, y: 4}
   - name: Orc rider_Frame_50
     originalName: 
-    pivot: {x: 0.40625, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -943,8 +983,8 @@ ScriptedImporter:
     uvTransform: {x: 280, y: 190}
   - name: Orc rider_Frame_51
     originalName: 
-    pivot: {x: 0.41935483, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -963,8 +1003,8 @@ ScriptedImporter:
     uvTransform: {x: 214, y: 4}
   - name: Orc rider_Frame_52
     originalName: 
-    pivot: {x: 0.3953488, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -983,8 +1023,8 @@ ScriptedImporter:
     uvTransform: {x: 439, y: 228}
   - name: Orc rider_Frame_53
     originalName: 
-    pivot: {x: 0.4230769, y: -2.6666667}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1003,8 +1043,8 @@ ScriptedImporter:
     uvTransform: {x: 369, y: 4}
   - name: Orc rider_Frame_6
     originalName: 
-    pivot: {x: 0.40625, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1023,8 +1063,8 @@ ScriptedImporter:
     uvTransform: {x: 320, y: 190}
   - name: Orc rider_Frame_7
     originalName: 
-    pivot: {x: 0.41935483, y: -1.25}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1043,8 +1083,8 @@ ScriptedImporter:
     uvTransform: {x: 360, y: 190}
   - name: Orc rider_Frame_8
     originalName: 
-    pivot: {x: 0.41935483, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1063,8 +1103,8 @@ ScriptedImporter:
     uvTransform: {x: 161, y: 151}
   - name: Orc rider_Frame_9
     originalName: 
-    pivot: {x: 0.41935483, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1083,8 +1123,8 @@ ScriptedImporter:
     uvTransform: {x: 253, y: 4}
   - name: Orc rider_Frame_10
     originalName: 
-    pivot: {x: 0.41935483, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1103,8 +1143,8 @@ ScriptedImporter:
     uvTransform: {x: 200, y: 151}
   - name: Orc rider_Frame_11
     originalName: 
-    pivot: {x: 0.41935483, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1123,8 +1163,8 @@ ScriptedImporter:
     uvTransform: {x: 239, y: 151}
   - name: Orc rider_Frame_12
     originalName: 
-    pivot: {x: 0.40625, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1143,8 +1183,8 @@ ScriptedImporter:
     uvTransform: {x: 398, y: 151}
   - name: Orc rider_Frame_13
     originalName: 
-    pivot: {x: 0.39393938, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1163,8 +1203,8 @@ ScriptedImporter:
     uvTransform: {x: 439, y: 190}
   - name: Orc rider_Frame_15
     originalName: 
-    pivot: {x: 0.41935483, y: -1.3333334}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1183,8 +1223,8 @@ ScriptedImporter:
     uvTransform: {x: 292, y: 4}
   - name: Orc rider_Frame_22
     originalName: 
-    pivot: {x: 0.40625, y: -1.2903227}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1644,7 +1684,31 @@ ScriptedImporter:
       spriteId: 04bc81d6128ed8244988e23484c0124c
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 

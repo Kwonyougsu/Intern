@@ -2,7 +2,42 @@ fileFormatVersion: 2
 guid: d41d58c57c24ab64fbec99304bc00bac
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack01
+    second: {fileID: 7400000, guid: 2f64a4f1cc3040f4895285534b109742, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack02
+    second: {fileID: 7400000, guid: f988be06c3d9f614aaffe1840ee6f4a3, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack03
+    second: {fileID: 7400000, guid: ce7cf83c8b9bd0740b0d4b671dc951ad, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Death
+    second: {fileID: 7400000, guid: fe41f11ca1cab0a4286d3b1957f8d0a2, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Hurt
+    second: {fileID: 7400000, guid: 9cd23f190a239544d9e35f364b390144, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Idle
+    second: {fileID: 7400000, guid: a6dd334c025cef74089dff0eabe666f4, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Walk
+    second: {fileID: 7400000, guid: be7144865aed5594a998bdcf37605ec3, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -97,7 +132,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638728333693394537
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,8 +158,8 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Werebear_Frame_0
     originalName: 
-    pivot: {x: 0.4210527, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -143,8 +178,8 @@ ScriptedImporter:
     uvTransform: {x: 221, y: 122}
   - name: Werebear_Frame_14
     originalName: 
-    pivot: {x: 0.4210527, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -163,8 +198,8 @@ ScriptedImporter:
     uvTransform: {x: 132, y: 65}
   - name: Werebear_Frame_15
     originalName: 
-    pivot: {x: 0.4210527, y: -1.9047619}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -183,8 +218,8 @@ ScriptedImporter:
     uvTransform: {x: 32, y: 122}
   - name: Werebear_Frame_16
     originalName: 
-    pivot: {x: 0.38095245, y: -1.9047619}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -203,8 +238,8 @@ ScriptedImporter:
     uvTransform: {x: 96, y: 93}
   - name: Werebear_Frame_17
     originalName: 
-    pivot: {x: 0.33333328, y: -1.9047619}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -223,8 +258,8 @@ ScriptedImporter:
     uvTransform: {x: 125, y: 93}
   - name: Werebear_Frame_18
     originalName: 
-    pivot: {x: 0.31818178, y: -1.9047619}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -243,8 +278,8 @@ ScriptedImporter:
     uvTransform: {x: 36, y: 93}
   - name: Werebear_Frame_19
     originalName: 
-    pivot: {x: 0.17948717, y: -1.6666666}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -263,8 +298,8 @@ ScriptedImporter:
     uvTransform: {x: 103, y: 31}
   - name: Werebear_Frame_20
     originalName: 
-    pivot: {x: 0.18421051, y: -2.1052632}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -283,8 +318,8 @@ ScriptedImporter:
     uvTransform: {x: 140, y: 4}
   - name: Werebear_Frame_21
     originalName: 
-    pivot: {x: 0.31818178, y: -2.1052632}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -303,8 +338,8 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 4}
   - name: Werebear_Frame_22
     originalName: 
-    pivot: {x: 0.4210527, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -323,8 +358,8 @@ ScriptedImporter:
     uvTransform: {x: 159, y: 65}
   - name: Werebear_Frame_23
     originalName: 
-    pivot: {x: 0.4210527, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -343,8 +378,8 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 65}
   - name: Werebear_Frame_24
     originalName: 
-    pivot: {x: 0.4210527, y: -1.9047619}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -363,8 +398,8 @@ ScriptedImporter:
     uvTransform: {x: 59, y: 122}
   - name: Werebear_Frame_25
     originalName: 
-    pivot: {x: 0.36363643, y: -1.9047619}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -383,8 +418,8 @@ ScriptedImporter:
     uvTransform: {x: 66, y: 93}
   - name: Werebear_Frame_26
     originalName: 
-    pivot: {x: 0.33333337, y: -1.9047619}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -403,8 +438,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 93}
   - name: Werebear_Frame_27
     originalName: 
-    pivot: {x: 0.21052635, y: -1.56}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -423,8 +458,8 @@ ScriptedImporter:
     uvTransform: {x: 57, y: 31}
   - name: Werebear_Frame_28
     originalName: 
-    pivot: {x: 0.22222225, y: -1.9499999}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -443,8 +478,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 65}
   - name: Werebear_Frame_29
     originalName: 
-    pivot: {x: 0.42857143, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -463,8 +498,8 @@ ScriptedImporter:
     uvTransform: {x: 154, y: 93}
   - name: Werebear_Frame_30
     originalName: 
-    pivot: {x: 0.42857143, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -483,8 +518,8 @@ ScriptedImporter:
     uvTransform: {x: 183, y: 93}
   - name: Werebear_Frame_31
     originalName: 
-    pivot: {x: 0.36842102, y: -2.1052632}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -503,8 +538,8 @@ ScriptedImporter:
     uvTransform: {x: 172, y: 151}
   - name: Werebear_Frame_32
     originalName: 
-    pivot: {x: 0.19444442, y: -1.5217391}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -523,8 +558,8 @@ ScriptedImporter:
     uvTransform: {x: 150, y: 31}
   - name: Werebear_Frame_33
     originalName: 
-    pivot: {x: 0.19444442, y: -1.5217391}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -543,8 +578,8 @@ ScriptedImporter:
     uvTransform: {x: 194, y: 31}
   - name: Werebear_Frame_34
     originalName: 
-    pivot: {x: 0.36842102, y: -2.0526314}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -563,8 +598,8 @@ ScriptedImporter:
     uvTransform: {x: 199, y: 151}
   - name: Werebear_Frame_35
     originalName: 
-    pivot: {x: 0.4210527, y: -2.222222}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -583,8 +618,8 @@ ScriptedImporter:
     uvTransform: {x: 139, y: 178}
   - name: Werebear_Frame_36
     originalName: 
-    pivot: {x: 0.4210527, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -603,8 +638,8 @@ ScriptedImporter:
     uvTransform: {x: 213, y: 65}
   - name: Werebear_Frame_37
     originalName: 
-    pivot: {x: 0.4210527, y: -1.9047619}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -623,8 +658,8 @@ ScriptedImporter:
     uvTransform: {x: 86, y: 122}
   - name: Werebear_Frame_38
     originalName: 
-    pivot: {x: 0.38888884, y: -1.9047619}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -643,8 +678,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 206}
   - name: Werebear_Frame_39
     originalName: 
-    pivot: {x: 0.36842102, y: -1.9047619}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -663,8 +698,8 @@ ScriptedImporter:
     uvTransform: {x: 113, y: 122}
   - name: Werebear_Frame_40
     originalName: 
-    pivot: {x: 0.36842102, y: -1.9047619}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -683,8 +718,8 @@ ScriptedImporter:
     uvTransform: {x: 140, y: 122}
   - name: Werebear_Frame_41
     originalName: 
-    pivot: {x: 0.3111111, y: -1.5384616}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -703,8 +738,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 31}
   - name: Werebear_Frame_42
     originalName: 
-    pivot: {x: 0.3965517, y: -2.1052632}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -723,8 +758,8 @@ ScriptedImporter:
     uvTransform: {x: 74, y: 4}
   - name: Werebear_Frame_43
     originalName: 
-    pivot: {x: 0.4032258, y: -2.1052632}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -743,8 +778,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Werebear_Frame_44
     originalName: 
-    pivot: {x: 0.31818178, y: -2.1052632}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -763,8 +798,8 @@ ScriptedImporter:
     uvTransform: {x: 216, y: 4}
   - name: Werebear_Frame_45
     originalName: 
-    pivot: {x: 0.40000007, y: -2.1052632}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -783,8 +818,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 151}
   - name: Werebear_Frame_46
     originalName: 
-    pivot: {x: 0.40000007, y: -2.1052632}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -803,8 +838,8 @@ ScriptedImporter:
     uvTransform: {x: 32, y: 151}
   - name: Werebear_Frame_47
     originalName: 
-    pivot: {x: 0.40000007, y: -2.1052632}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -823,8 +858,8 @@ ScriptedImporter:
     uvTransform: {x: 60, y: 151}
   - name: Werebear_Frame_48
     originalName: 
-    pivot: {x: 0.40000007, y: -2.1052632}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -843,8 +878,8 @@ ScriptedImporter:
     uvTransform: {x: 88, y: 151}
   - name: Werebear_Frame_49
     originalName: 
-    pivot: {x: 0.4210527, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -863,8 +898,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 178}
   - name: Werebear_Frame_50
     originalName: 
-    pivot: {x: 0.34999996, y: -2.222222}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -883,8 +918,8 @@ ScriptedImporter:
     uvTransform: {x: 226, y: 151}
   - name: Werebear_Frame_51
     originalName: 
-    pivot: {x: 0.33333328, y: -2.5}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -903,8 +938,8 @@ ScriptedImporter:
     uvTransform: {x: 166, y: 178}
   - name: Werebear_Frame_52
     originalName: 
-    pivot: {x: 0.27272728, y: -3.3333333}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -923,8 +958,8 @@ ScriptedImporter:
     uvTransform: {x: 195, y: 178}
   - name: Werebear_Frame_1
     originalName: 
-    pivot: {x: 0.4210527, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -943,8 +978,8 @@ ScriptedImporter:
     uvTransform: {x: 31, y: 178}
   - name: Werebear_Frame_2
     originalName: 
-    pivot: {x: 0.4210527, y: -1.9047619}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -963,8 +998,8 @@ ScriptedImporter:
     uvTransform: {x: 167, y: 122}
   - name: Werebear_Frame_3
     originalName: 
-    pivot: {x: 0.4210527, y: -1.9047619}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -983,8 +1018,8 @@ ScriptedImporter:
     uvTransform: {x: 194, y: 122}
   - name: Werebear_Frame_4
     originalName: 
-    pivot: {x: 0.4210527, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1003,8 +1038,8 @@ ScriptedImporter:
     uvTransform: {x: 58, y: 178}
   - name: Werebear_Frame_5
     originalName: 
-    pivot: {x: 0.4210527, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1023,8 +1058,8 @@ ScriptedImporter:
     uvTransform: {x: 85, y: 178}
   - name: Werebear_Frame_6
     originalName: 
-    pivot: {x: 0.40000007, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1043,8 +1078,8 @@ ScriptedImporter:
     uvTransform: {x: 48, y: 65}
   - name: Werebear_Frame_7
     originalName: 
-    pivot: {x: 0.34999996, y: -1.9047619}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1063,8 +1098,8 @@ ScriptedImporter:
     uvTransform: {x: 212, y: 93}
   - name: Werebear_Frame_8
     originalName: 
-    pivot: {x: 0.34999996, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1083,8 +1118,8 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 65}
   - name: Werebear_Frame_9
     originalName: 
-    pivot: {x: 0.34999996, y: -2.1052632}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1103,8 +1138,8 @@ ScriptedImporter:
     uvTransform: {x: 116, y: 151}
   - name: Werebear_Frame_10
     originalName: 
-    pivot: {x: 0.36842102, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1123,8 +1158,8 @@ ScriptedImporter:
     uvTransform: {x: 112, y: 178}
   - name: Werebear_Frame_11
     originalName: 
-    pivot: {x: 0.40000007, y: -1.9047619}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1143,8 +1178,8 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 122}
   - name: Werebear_Frame_12
     originalName: 
-    pivot: {x: 0.40000007, y: -2}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1163,8 +1198,8 @@ ScriptedImporter:
     uvTransform: {x: 104, y: 65}
   - name: Werebear_Frame_13
     originalName: 
-    pivot: {x: 0.40000007, y: -2.1052632}
-    alignment: 9
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
@@ -1616,7 +1651,31 @@ ScriptedImporter:
       spriteId: 08dce4d4935e6644f886b3295771374a
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
