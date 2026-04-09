@@ -1,15 +1,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterManager : MonoBehaviour
+public class MonsterManager : Singleton<MonsterManager>
 {
     [Header("Monster")]
-    public MonsterObjectPool objectPool; // ¿ÀºêÁ§Æ® Ç®
-    public MonsterDataLoader dataLoader; // µ¥ÀÌÅÍ ·Î´õ
+    public MonsterObjectPool objectPool; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® Ç®
+    public MonsterDataLoader dataLoader; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Î´ï¿½
     public GameObject Spawnpoint;
 
     private Dictionary<string, GameObject> prefabCache = new Dictionary<string, GameObject>();
-    public bool isMonsterAlive = false; // ¸ó½ºÅÍ°¡ »ì¾ÆÀÖ´ÂÁö ¿©ºÎ
+    public bool isMonsterAlive = false; // ï¿½ï¿½ï¿½Í°ï¿½ ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
     private void Awake()
     {
@@ -25,7 +25,7 @@ public class MonsterManager : MonoBehaviour
 
     private void AddAllMonstersToPool()
     {
-        // dataLoaderÀÇ ¸ðµç ¸ó½ºÅÍ µ¥ÀÌÅÍ¸¦ Ç®¿¡ Ãß°¡
+        // dataLoaderï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ Ç®ï¿½ï¿½ ï¿½ß°ï¿½
         foreach (MonsterInfo monsterInfo in dataLoader.monsterList)
         {
             GameObject monsterPrefab = LoadMonsterPrefab(monsterInfo);
@@ -47,7 +47,7 @@ public class MonsterManager : MonoBehaviour
             GameObject monsterPrefab = Resources.Load<GameObject>(monsterInfo.Prefab);
             if (monsterPrefab == null)
             {
-                Debug.LogError($"ÇÁ¸®ÆÕ ·Îµå ½ÇÆÐ: {monsterInfo.Prefab}");
+                Debug.LogError($"ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Îµï¿½ ï¿½ï¿½ï¿½ï¿½: {monsterInfo.Prefab}");
                 return null;
             }
             prefabCache[monsterInfo.Prefab] = monsterPrefab;
@@ -67,7 +67,7 @@ public class MonsterManager : MonoBehaviour
             monsterComponent.OnMonsterDeath += MonsterDeath;
         }
 
-        objectPool.AddToPool(monster); // Ç®¿¡ Ãß°¡
+        objectPool.AddToPool(monster); // Ç®ï¿½ï¿½ ï¿½ß°ï¿½
     }
 
     private void MonsterDeath(GameObject deadMonster)
@@ -80,21 +80,21 @@ public class MonsterManager : MonoBehaviour
     {
         if (GameManager.Instance.monsterKillcount < 5)
         {
-            // Ç®¿¡¼­ ¸ó½ºÅÍ¸¦ ²¨³»¼­ È°¼ºÈ­
+            // Ç®ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Í¸ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È°ï¿½ï¿½È­
             GameObject spawnedMonster = objectPool.PoolGetMonster();
 
             if (spawnedMonster != null)
             {
-                // ½ºÆù À§Ä¡ ¼³Á¤
+                // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½
                 spawnedMonster.transform.position = GetSpawnPosition();
 
-                // ¸ó½ºÅÍ È°¼ºÈ­
+                // ï¿½ï¿½ï¿½ï¿½ È°ï¿½ï¿½È­
                 spawnedMonster.SetActive(true);
                 isMonsterAlive = true;
             }
             else
             {
-                Debug.LogWarning("Ç®¿¡ ´õ ÀÌ»ó ¸ó½ºÅÍ°¡ ¾ø½À´Ï´Ù.");
+                Debug.LogWarning("Ç®ï¿½ï¿½ ï¿½ï¿½ ï¿½Ì»ï¿½ ï¿½ï¿½ï¿½Í°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½.");
             }
         }
     }
@@ -103,6 +103,4 @@ public class MonsterManager : MonoBehaviour
     {
         return Spawnpoint.transform.position;
     }
-
-
 }

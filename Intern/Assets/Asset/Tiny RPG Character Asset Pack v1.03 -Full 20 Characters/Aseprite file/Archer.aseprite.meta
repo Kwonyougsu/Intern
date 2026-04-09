@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -83,6 +84,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
@@ -96,6 +99,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   importFileNodeState: 1
   platformSettingsDirtyTick: 0
   textureAssetName: 
@@ -105,6 +110,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +132,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 95
@@ -146,6 +153,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 125
@@ -166,6 +174,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 192
@@ -186,6 +195,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 222
@@ -206,6 +216,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 155
@@ -226,6 +237,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 185
@@ -246,6 +258,7 @@ ScriptedImporter:
     pivot: {x: 0.5555555, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 182
@@ -266,6 +279,7 @@ ScriptedImporter:
     pivot: {x: 0.5555555, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 208
@@ -286,6 +300,7 @@ ScriptedImporter:
     pivot: {x: 0.5555555, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -306,6 +321,7 @@ ScriptedImporter:
     pivot: {x: 0.4642857, y: -2.222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 183
@@ -326,6 +342,7 @@ ScriptedImporter:
     pivot: {x: 0.49999997, y: -2.222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 124
@@ -346,6 +363,7 @@ ScriptedImporter:
     pivot: {x: 0.4642857, y: -2.222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 219
@@ -366,6 +384,7 @@ ScriptedImporter:
     pivot: {x: 0.49999997, y: -2.222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 158
@@ -386,6 +405,7 @@ ScriptedImporter:
     pivot: {x: 0.5416666, y: -2.222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 34
@@ -406,6 +426,7 @@ ScriptedImporter:
     pivot: {x: 0.23636363, y: -2.222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 75
@@ -426,6 +447,7 @@ ScriptedImporter:
     pivot: {x: 0.20634921, y: -0.8378379}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -446,6 +468,7 @@ ScriptedImporter:
     pivot: {x: 0.27659574, y: -0.7894737}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -466,6 +489,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 215
@@ -486,6 +510,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -506,6 +531,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 34
@@ -526,6 +552,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 64
@@ -546,6 +573,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 94
@@ -566,6 +594,7 @@ ScriptedImporter:
     pivot: {x: 0.5789474, y: -2.1052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 155
@@ -586,6 +615,7 @@ ScriptedImporter:
     pivot: {x: 0.73684204, y: -2.3529413}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 108
@@ -606,6 +636,7 @@ ScriptedImporter:
     pivot: {x: 0.88235295, y: -3.0769231}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 135
@@ -626,6 +657,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 124
@@ -646,6 +678,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -666,6 +699,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 154
@@ -686,6 +720,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2.1052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 95
@@ -706,6 +741,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 184
@@ -726,6 +762,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 34
@@ -746,6 +783,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 214
@@ -766,6 +804,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2.1052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 125
@@ -786,6 +825,7 @@ ScriptedImporter:
     pivot: {x: 0.5555555, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 234
@@ -806,6 +846,7 @@ ScriptedImporter:
     pivot: {x: 0.5555555, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 30
@@ -826,6 +867,7 @@ ScriptedImporter:
     pivot: {x: 0.5555555, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 56
@@ -846,6 +888,7 @@ ScriptedImporter:
     pivot: {x: 0.43478256, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 64
@@ -866,6 +909,7 @@ ScriptedImporter:
     pivot: {x: 0.4545454, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -886,6 +930,7 @@ ScriptedImporter:
     pivot: {x: 0.47619045, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 66
@@ -906,6 +951,7 @@ ScriptedImporter:
     pivot: {x: 0.27027026, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 138
@@ -926,6 +972,7 @@ ScriptedImporter:
     pivot: {x: 0.41666663, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 92
@@ -946,6 +993,7 @@ ScriptedImporter:
     pivot: {x: 0.5555555, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 82
@@ -966,6 +1014,7 @@ ScriptedImporter:
     pivot: {x: 0.39999998, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 59
@@ -982,352 +1031,401 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 59, y: 49}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1080414087
+    uuid:
+      value0: 284003939
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 284003939
     name: Archer
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Archer_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 20
       spriteId: 09ef88a07d80e6341bada5351d96859c
-    - name: Archer_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 20
       spriteId: ae72965f851376f43abbf91fa0dbffb2
-    - name: Archer_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 21
       spriteId: fe011e209aab1514a9659226dbf04194
-    - name: Archer_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 21
       spriteId: 245a41a6fe751594a87627ed51858406
-    - name: Archer_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 20
       spriteId: 9274f5ef9f9fc4842a3afb7542bda3cd
-    - name: Archer_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 20
       spriteId: 135917f5469bae443bda8ed649e2fd17
-    - name: Archer_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 18
         height: 20
       spriteId: ed624b4975dd35549aa32143a2c3f958
-    - name: Archer_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 18
         height: 20
       spriteId: 60ef5a71fe5925447b98b35728e5fcfd
-    - name: Archer_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 18
         height: 22
       spriteId: f2c8f8fbd5416014593ef10b55044af8
-    - name: Archer_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 40
         width: 28
         height: 18
       spriteId: 0187828603d021f4abd5a4494bd8bf5d
-    - name: Archer_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 40
         width: 26
         height: 18
       spriteId: 7d6809a80715a1b4090bba8ea1866a91
-    - name: Archer_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 40
         width: 28
         height: 18
       spriteId: 5aa35aa50a5e0204899c89e3a53fc4a6
-    - name: Archer_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 40
         width: 26
         height: 18
       spriteId: 1e3463a91b0c278428b355df084191b0
-    - name: Archer_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 40
         width: 24
         height: 18
       spriteId: 268e9dbafd6e5884d808c38a03c372ae
-    - name: Archer_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 40
         width: 55
         height: 18
       spriteId: cd8c4d6eb0b31f146aced7302d764784
-    - name: Archer_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 31
         width: 63
         height: 37
       spriteId: c5e9285ffd1808046b9eb3938f896435
-    - name: Archer_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 30
         width: 47
         height: 38
       spriteId: dc5beda8fb228484dabfd06bfb1323c1
-    - name: Archer_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 20
       spriteId: 0ef8bbe84d6136f49aa1f5f9aaed96ab
-    - name: Archer_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 20
       spriteId: b92e7a749ed39be449c7868add575bd9
-    - name: Archer_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 20
       spriteId: 019fda802a56dd54898d05aa6304ce07
-    - name: Archer_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 20
       spriteId: ffcd1b0ecb56be244a6a3f1dd57bfaaf
-    - name: Archer_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 20
       spriteId: 61c02089a5600604e8a5f9df6aa3e027
-    - name: Archer_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 40
         width: 19
         height: 19
       spriteId: a4f02afdc251401458d4659f70cbbeb6
-    - name: Archer_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 36
         y: 40
         width: 19
         height: 17
       spriteId: 686ec5d64ac5efb4e9a92dc6217e56b5
-    - name: Archer_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 40
         width: 17
         height: 13
       spriteId: 5a39c58d4806769489e070d752e0f4a8
-    - name: Archer_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 20
       spriteId: 824750a65816a4744af9bb79bf1763cc
-    - name: Archer_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 21
       spriteId: aac82aee62cfac642b8875494b3c5eb2
-    - name: Archer_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 20
       spriteId: c1162d434cae77744aab951bd25fe3f1
-    - name: Archer_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 19
       spriteId: 72a8231993bef944899244ce564981ac
-    - name: Archer_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 20
       spriteId: f323b29f832a6fa4da22670c94fccfd1
-    - name: Archer_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 21
       spriteId: 82fa00edc653b604480c362999e82e9b
-    - name: Archer_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 20
       spriteId: 90cecbf958a325b468842784e618e022
-    - name: Archer_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 19
       spriteId: f5dc9e3b23c75534faf20982a7096909
-    - name: Archer_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 18
         height: 20
       spriteId: 164eed88d9b81094a8c6be948cfbf93b
-    - name: Archer_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 18
         height: 22
       spriteId: 8985d86f6afb6924b9484821b84b8a52
-    - name: Archer_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 18
         height: 20
       spriteId: 27ca79c976630c740b6143f71f0f863e
-    - name: Archer_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 23
         height: 20
       spriteId: 5dd3b0bc5dc0abf41bf6a6982fca8baf
-    - name: Archer_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 22
         height: 20
       spriteId: b1fbcead94c20fa4687a3f44896efa2f
-    - name: Archer_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 21
         height: 20
       spriteId: fb04db6719961944fb0dc6222f8d22ab
-    - name: Archer_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 37
         height: 20
       spriteId: 34134e585674aee46a9932b940aeb42b
-    - name: Archer_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 24
         height: 20
       spriteId: 95687c07b833ea34e84fbc3be2b869cb
-    - name: Archer_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 18
         height: 20
       spriteId: 92f74eb705279d64da6dc151dbcc5b8a
-    - name: Archer_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
@@ -1335,9 +1433,13 @@ ScriptedImporter:
         height: 20
       spriteId: 6502de1409923e44d821c0c82572d9b3
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 100, y: 100}
+  previousTextureSize: {x: 256, y: 256}

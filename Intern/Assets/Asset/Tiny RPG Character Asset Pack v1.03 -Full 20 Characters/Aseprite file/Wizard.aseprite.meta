@@ -58,6 +58,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -133,6 +134,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
@@ -146,6 +149,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   importFileNodeState: 1
   platformSettingsDirtyTick: 638728330933013405
   textureAssetName: 
@@ -155,6 +160,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -173,9 +179,10 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Wizard_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -193,9 +200,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 135}
   - name: Wizard_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -213,9 +221,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 164}
   - name: Wizard_Frame_2
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.8181819}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -233,9 +242,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 435}
   - name: Wizard_Frame_3
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.8181819}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -253,9 +263,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 465}
   - name: Wizard_Frame_4
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -273,9 +284,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 193}
   - name: Wizard_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -293,9 +305,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 222}
   - name: Wizard_Frame_14
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -313,9 +326,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 251}
   - name: Wizard_Frame_15
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.38888884, y: -1.8181819}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 154
@@ -333,9 +347,10 @@ ScriptedImporter:
     uvTransform: {x: 154, y: 457}
   - name: Wizard_Frame_16
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.36842102, y: -1.8181819}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 154
@@ -353,9 +368,10 @@ ScriptedImporter:
     uvTransform: {x: 154, y: 367}
   - name: Wizard_Frame_17
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.34999996, y: -1.7391304}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 154
@@ -373,9 +389,10 @@ ScriptedImporter:
     uvTransform: {x: 154, y: 305}
   - name: Wizard_Frame_18
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.33333328, y: -1.6666666}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 154
@@ -393,9 +410,10 @@ ScriptedImporter:
     uvTransform: {x: 154, y: 211}
   - name: Wizard_Frame_19
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.122807, y: -0.17808218}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -413,9 +431,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 85}
   - name: Wizard_Frame_20
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.12962961, y: -0.5652174}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -433,9 +452,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 166}
   - name: Wizard_Frame_21
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.15555555, y: -1.0625}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -453,9 +473,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 447}
   - name: Wizard_Frame_22
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.15555555, y: -1.03125}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 73
@@ -473,9 +494,10 @@ ScriptedImporter:
     uvTransform: {x: 73, y: 4}
   - name: Wizard_Frame_23
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.15909089, y: -1.0625}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 73
@@ -493,9 +515,10 @@ ScriptedImporter:
     uvTransform: {x: 73, y: 84}
   - name: Wizard_Frame_24
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.14893615, y: -1.03125}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -513,9 +536,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 407}
   - name: Wizard_Frame_25
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.15555555, y: -1.0625}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 73
@@ -533,9 +557,10 @@ ScriptedImporter:
     uvTransform: {x: 73, y: 44}
   - name: Wizard_Frame_26
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.15909089, y: -1}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -553,9 +578,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 321}
   - name: Wizard_Frame_27
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.15909089, y: -1}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -573,9 +599,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 364}
   - name: Wizard_Frame_28
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.15555555, y: -0.8461539}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -593,9 +620,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 274}
   - name: Wizard_Frame_29
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -613,9 +641,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 280}
   - name: Wizard_Frame_30
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.38888884, y: -1.8181819}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -633,9 +662,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 283}
   - name: Wizard_Frame_31
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.36842102, y: -1.8181819}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 154
@@ -653,9 +683,10 @@ ScriptedImporter:
     uvTransform: {x: 154, y: 397}
   - name: Wizard_Frame_32
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.34999996, y: -1.7391304}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 154
@@ -673,9 +704,10 @@ ScriptedImporter:
     uvTransform: {x: 154, y: 336}
   - name: Wizard_Frame_33
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.33333328, y: -1.6666666}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 154
@@ -693,9 +725,10 @@ ScriptedImporter:
     uvTransform: {x: 154, y: 243}
   - name: Wizard_Frame_34
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.36842102, y: -1.8181819}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 154
@@ -713,9 +746,10 @@ ScriptedImporter:
     uvTransform: {x: 154, y: 427}
   - name: Wizard_Frame_45
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -733,9 +767,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 309}
   - name: Wizard_Frame_46
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.38888884, y: -1.8181819}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -753,9 +788,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 313}
   - name: Wizard_Frame_47
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.7391304}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -773,9 +809,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 373}
   - name: Wizard_Frame_48
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.6, y: -1.4285715}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -793,9 +830,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 211}
   - name: Wizard_Frame_49
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.24137928, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -813,9 +851,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 124}
   - name: Wizard_Frame_50
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.1707317, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 73
@@ -833,9 +872,10 @@ ScriptedImporter:
     uvTransform: {x: 73, y: 366}
   - name: Wizard_Frame_51
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.15555555, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 73
@@ -853,9 +893,10 @@ ScriptedImporter:
     uvTransform: {x: 73, y: 171}
   - name: Wizard_Frame_52
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.14893615, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -873,9 +914,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 95}
   - name: Wizard_Frame_53
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.14285713, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -893,9 +935,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 487}
   - name: Wizard_Frame_54
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.14285713, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -913,9 +956,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 66}
   - name: Wizard_Frame_55
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.1372549, y: -1.7727271}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -933,9 +977,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 36}
   - name: Wizard_Frame_56
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.13461536, y: -1.5416666}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -953,9 +998,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 4}
   - name: Wizard_Frame_57
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -973,9 +1019,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 338}
   - name: Wizard_Frame_58
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.38888884, y: -1.8181819}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -993,9 +1040,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 343}
   - name: Wizard_Frame_59
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.7391304}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -1013,9 +1061,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 404}
   - name: Wizard_Frame_60
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.6, y: -1.4285715}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -1033,9 +1082,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 247}
   - name: Wizard_Frame_61
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.24137928, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -1053,9 +1103,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 153}
   - name: Wizard_Frame_62
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.24137928, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -1073,9 +1124,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 182}
   - name: Wizard_Frame_70
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.4705883, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -1093,9 +1145,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 367}
   - name: Wizard_Frame_71
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.4705883, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -1113,9 +1166,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 396}
   - name: Wizard_Frame_72
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.4705883, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -1133,9 +1187,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 425}
   - name: Wizard_Frame_73
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.4705883, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -1153,9 +1208,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 454}
   - name: Wizard_Frame_74
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.4705883, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -1173,9 +1229,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 483}
   - name: Wizard_Frame_75
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.4705883, y: -2}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 226
@@ -1193,9 +1250,10 @@ ScriptedImporter:
     uvTransform: {x: 226, y: 120}
   - name: Wizard_Frame_76
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.33333328, y: -2.222222}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 154
@@ -1213,9 +1271,10 @@ ScriptedImporter:
     uvTransform: {x: 154, y: 487}
   - name: Wizard_Frame_77
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.21874997, y: -3.0769231}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -1233,9 +1292,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 4}
   - name: Wizard_Frame_6
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 226
@@ -1253,9 +1313,10 @@ ScriptedImporter:
     uvTransform: {x: 226, y: 4}
   - name: Wizard_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.8181819}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -1273,9 +1334,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 25}
   - name: Wizard_Frame_8
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 226
@@ -1293,9 +1355,10 @@ ScriptedImporter:
     uvTransform: {x: 226, y: 33}
   - name: Wizard_Frame_9
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -2}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 226
@@ -1313,9 +1376,10 @@ ScriptedImporter:
     uvTransform: {x: 226, y: 148}
   - name: Wizard_Frame_10
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 226
@@ -1333,9 +1397,10 @@ ScriptedImporter:
     uvTransform: {x: 226, y: 62}
   - name: Wizard_Frame_11
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.8181819}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -1353,9 +1418,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 55}
   - name: Wizard_Frame_12
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -1.9047619}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 226
@@ -1373,9 +1439,10 @@ ScriptedImporter:
     uvTransform: {x: 226, y: 91}
   - name: Wizard_Frame_13
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.41176465, y: -2}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 226
@@ -1393,9 +1460,10 @@ ScriptedImporter:
     uvTransform: {x: 226, y: 176}
   - name: Wizard_Frame_35
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.40983605, y: -0.17808218}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1413,9 +1481,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Wizard_Frame_36
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.375, y: -0.5652174}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -1433,9 +1502,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 220}
   - name: Wizard_Frame_37
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.38461536, y: -1.0625}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 73
@@ -1453,9 +1523,10 @@ ScriptedImporter:
     uvTransform: {x: 73, y: 395}
   - name: Wizard_Frame_38
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.38461536, y: -1.03125}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 73
@@ -1473,9 +1544,10 @@ ScriptedImporter:
     uvTransform: {x: 73, y: 435}
   - name: Wizard_Frame_39
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.4642857, y: -1.0625}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 73
@@ -1493,9 +1565,10 @@ ScriptedImporter:
     uvTransform: {x: 73, y: 200}
   - name: Wizard_Frame_40
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.33333334, y: -1.03125}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 73
@@ -1513,9 +1586,10 @@ ScriptedImporter:
     uvTransform: {x: 73, y: 326}
   - name: Wizard_Frame_41
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.38461536, y: -1.0625}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 73
@@ -1533,9 +1607,10 @@ ScriptedImporter:
     uvTransform: {x: 73, y: 475}
   - name: Wizard_Frame_42
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.44000006, y: -1}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 73
@@ -1553,9 +1628,10 @@ ScriptedImporter:
     uvTransform: {x: 73, y: 240}
   - name: Wizard_Frame_43
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.44000006, y: -1}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 73
@@ -1573,9 +1649,10 @@ ScriptedImporter:
     uvTransform: {x: 73, y: 283}
   - name: Wizard_Frame_44
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.4642857, y: -0.8461539}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 73
@@ -1593,9 +1670,10 @@ ScriptedImporter:
     uvTransform: {x: 73, y: 124}
   - name: Wizard_Frame_63
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.4545454, y: -3.230769}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 226
@@ -1613,9 +1691,10 @@ ScriptedImporter:
     uvTransform: {x: 226, y: 227}
   - name: Wizard_Frame_64
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.40000007, y: -3.230769}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 126
@@ -1633,9 +1712,10 @@ ScriptedImporter:
     uvTransform: {x: 126, y: 495}
   - name: Wizard_Frame_65
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.5, y: -2.7333333}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -1653,9 +1733,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 112}
   - name: Wizard_Frame_66
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.42857143, y: -2.7333333}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 226
@@ -1673,9 +1754,10 @@ ScriptedImporter:
     uvTransform: {x: 226, y: 204}
   - name: Wizard_Frame_67
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.14285722, y: -2.9999998}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 163
@@ -1693,9 +1775,10 @@ ScriptedImporter:
     uvTransform: {x: 163, y: 124}
   - name: Wizard_Frame_68
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.26315796, y: -2.0526314}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 186
@@ -1713,9 +1796,10 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 85}
   - name: Wizard_Frame_69
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.31818178, y: -1.6818182}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 154
@@ -1732,632 +1816,716 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 154, y: 275}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1678267451
+    uuid:
+      value0: 2449221351
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -1845745945
     name: Wizard
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Wizard_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 21
       spriteId: 022cdd83ab6362b4ea4cb642e340c21f
-    - name: Wizard_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 21
       spriteId: 9174802a49e4a5a40ab6aeed164ba7e4
-    - name: Wizard_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 22
       spriteId: 0545cd7755b60a446a440f8044c413e9
-    - name: Wizard_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 22
       spriteId: b4ab9ba9854b82e488abcf7c865f34f0
-    - name: Wizard_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 21
       spriteId: a11b3d20dcf1f4248b54dcb24f8a20b6
-    - name: Wizard_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 21
       spriteId: 1096c8978c68cb141a36245e3a55aecc
-    - name: Wizard_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 21
       spriteId: b90a482a351bca640889f8f345e3b140
-    - name: Wizard_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 18
         height: 22
       spriteId: 2223b73f3410d7f47a9b67274588c557
-    - name: Wizard_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 19
         height: 22
       spriteId: e7693daa9aee8bc4ab4c7a12ea380c71
-    - name: Wizard_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 20
         height: 23
       spriteId: d02fa3a99a2006d49a6f6bbc4e268143
-    - name: Wizard_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 24
       spriteId: 0ec06d386f7f2af47b38f5b1974a7193
-    - name: Wizard_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 13
         width: 57
         height: 73
       spriteId: f98e3c3b6fe1ca049a8e81e9e3e4cb13
-    - name: Wizard_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 26
         width: 54
         height: 46
       spriteId: 21849f77e0f8a844b824f60e7b41bf6e
-    - name: Wizard_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 34
         width: 45
         height: 32
       spriteId: b2771ea9346b87249a0d110122c14a6f
-    - name: Wizard_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 33
         width: 45
         height: 32
       spriteId: a824ad57c60ed554db25d3f2e6472d18
-    - name: Wizard_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 34
         width: 44
         height: 32
       spriteId: b48205f6034ec52499135e0ff0147661
-    - name: Wizard_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 33
         width: 47
         height: 32
       spriteId: 66114981cfdb29f439bda09dc110a7d4
-    - name: Wizard_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 34
         width: 45
         height: 32
       spriteId: c8b9ecccb9752104080b7f09e4282123
-    - name: Wizard_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 35
         width: 44
         height: 35
       spriteId: 6602bcc4d7a20a64d957a4ebb77de47b
-    - name: Wizard_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 35
         width: 44
         height: 35
       spriteId: fda6736241210e4448b1b7f9b07f5f6d
-    - name: Wizard_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 33
         width: 45
         height: 39
       spriteId: 482d819703d3c0e44ae90bbaff6e2b20
-    - name: Wizard_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 21
       spriteId: aaa25d4e80e182a479bc9a22be560d84
-    - name: Wizard_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 18
         height: 22
       spriteId: 987e4409e076c744d980d249168456eb
-    - name: Wizard_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 19
         height: 22
       spriteId: bf6ee7afd313bb3428a2479cac6bd070
-    - name: Wizard_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 20
         height: 23
       spriteId: 5f0b7592533a9f54ebdc8fc7c48fd19f
-    - name: Wizard_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 24
       spriteId: 677c556f8dd853745bb540791a452d3b
-    - name: Wizard_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 19
         height: 22
       spriteId: a8a5dce4f8818134eb1b49fe6250988d
-    - name: Wizard_Frame_45
+    - name: Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 21
       spriteId: a6dd3fdf567ba4a438c05673c30873e8
-    - name: Wizard_Frame_46
+    - name: Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 18
         height: 22
       spriteId: 1849804ead4c47243845f4afbb94113f
-    - name: Wizard_Frame_47
+    - name: Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 23
       spriteId: 5ec23f4381ee72c4095b38d19b7aa296
-    - name: Wizard_Frame_48
+    - name: Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 38
         y: 40
         width: 20
         height: 28
       spriteId: 364168add934466439ce0ad08e3cf9fc
-    - name: Wizard_Frame_49
+    - name: Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 29
         height: 21
       spriteId: 962658312df81214b9a7964d3337ee33
-    - name: Wizard_Frame_50
+    - name: Frame_50
       frameIndex: 50
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 41
         height: 21
       spriteId: f387258eee42ce84289d5192c5ff95bd
-    - name: Wizard_Frame_51
+    - name: Frame_51
       frameIndex: 51
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 45
         height: 21
       spriteId: d430c9d368c86d34389775ce404d3575
-    - name: Wizard_Frame_52
+    - name: Frame_52
       frameIndex: 52
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 47
         height: 21
       spriteId: fa0e88c2abc9bb2428317a6bb73b6624
-    - name: Wizard_Frame_53
+    - name: Frame_53
       frameIndex: 53
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 49
         height: 21
       spriteId: bdf1d5f0a41ab5e4b8dd97a8b31ecf65
-    - name: Wizard_Frame_54
+    - name: Frame_54
       frameIndex: 54
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 49
         height: 21
       spriteId: b49fcd34b5384be4380b9315f795d3d7
-    - name: Wizard_Frame_55
+    - name: Frame_55
       frameIndex: 55
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 39
         width: 51
         height: 22
       spriteId: ae7f998fa3a03aa4ca4b1d9f2a53c52a
-    - name: Wizard_Frame_56
+    - name: Frame_56
       frameIndex: 56
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 37
         width: 52
         height: 24
       spriteId: 889c5803d0d310b41819d38c96a9c16c
-    - name: Wizard_Frame_57
+    - name: Frame_57
       frameIndex: 57
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 21
       spriteId: 0b9e2a707bad27345a0481a3fd55a09d
-    - name: Wizard_Frame_58
+    - name: Frame_58
       frameIndex: 58
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 18
         height: 22
       spriteId: a4424764d1a95b54195485b798b8b187
-    - name: Wizard_Frame_59
+    - name: Frame_59
       frameIndex: 59
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 23
       spriteId: a5095c9b421271c4bacefdbfa02d822e
-    - name: Wizard_Frame_60
+    - name: Frame_60
       frameIndex: 60
+      additiveSortOrder: 0
       cellRect:
         x: 38
         y: 40
         width: 20
         height: 28
       spriteId: 8267d95bbc27237459fec3f967b00d95
-    - name: Wizard_Frame_61
+    - name: Frame_61
       frameIndex: 61
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 29
         height: 21
       spriteId: cce5cf3976741e247a91e06e330b08b4
-    - name: Wizard_Frame_62
+    - name: Frame_62
       frameIndex: 62
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 29
         height: 21
       spriteId: fd48f39d24ec15949b75821920713b86
-    - name: Wizard_Frame_70
+    - name: Frame_70
       frameIndex: 70
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 17
         height: 21
       spriteId: 61585445e41192d4d9e48f95dd3c994f
-    - name: Wizard_Frame_71
+    - name: Frame_71
       frameIndex: 71
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 17
         height: 21
       spriteId: 5976fb40b97bfbd4eaa48cfd7234fe14
-    - name: Wizard_Frame_72
+    - name: Frame_72
       frameIndex: 72
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 17
         height: 21
       spriteId: 1bb9576657b2cc043841ddcdc56b6a71
-    - name: Wizard_Frame_73
+    - name: Frame_73
       frameIndex: 73
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 17
         height: 21
       spriteId: b3ed05950b4b55c4ea5fa428bff9c23b
-    - name: Wizard_Frame_74
+    - name: Frame_74
       frameIndex: 74
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 17
         height: 21
       spriteId: 676c482c9640b8345b51b76df720a569
-    - name: Wizard_Frame_75
+    - name: Frame_75
       frameIndex: 75
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 17
         height: 20
       spriteId: d32aa7ae0a6ae1347a88e7325ec93612
-    - name: Wizard_Frame_76
+    - name: Frame_76
       frameIndex: 76
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 18
       spriteId: bd819a8d587fe7341b06b5ad7a365212
-    - name: Wizard_Frame_77
+    - name: Frame_77
       frameIndex: 77
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 32
         height: 13
       spriteId: 7d941f3bdd0a3f44288a49f06d5fb1f9
-    - name: Wizard_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 21
       spriteId: bf361ea41b4659a4882ec4e62da89309
-    - name: Wizard_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 22
       spriteId: 5243f9bde28d86545ad2677d7ca4754b
-    - name: Wizard_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 21
       spriteId: 0eb94c70fbb196945a603fa8c3c32856
-    - name: Wizard_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 20
       spriteId: 7fddaf93b7161e64a94be1faba5758e1
-    - name: Wizard_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 21
       spriteId: bf3d2f1cda29f364c8274dfda224c3f2
-    - name: Wizard_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 22
       spriteId: 33f8bc930f664fa4b8b1bb13556020f3
-    - name: Wizard_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 21
       spriteId: cf23bc611e078b24c83fd9158880c0dd
-    - name: Wizard_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 17
         height: 20
       spriteId: fb573ceb65b90214f844737eed0b3fbb
-    - name: Wizard_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 25
         y: 13
         width: 61
         height: 73
       spriteId: 64f94f1ca6dfafe4aaf16b70d2533d0f
-    - name: Wizard_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 26
         width: 40
         height: 46
       spriteId: 81d5ac2f3fa84124b87cf5ec512dfa99
-    - name: Wizard_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 34
         width: 26
         height: 32
       spriteId: eacb4c4f871f48445a87eba2d3aa025d
-    - name: Wizard_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 33
         width: 26
         height: 32
       spriteId: e406f9a57b6ccc54d8b8e3acde7eaf44
-    - name: Wizard_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 34
         width: 28
         height: 32
       spriteId: 8587b235c834bbb43a247d6c7b0dab04
-    - name: Wizard_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 33
         width: 27
         height: 32
       spriteId: 3eb5f68aa7583ae428954f2ab5a7c0a1
-    - name: Wizard_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 34
         width: 26
         height: 32
       spriteId: aa222af38a7e0f64fa0e2e29df045784
-    - name: Wizard_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 35
         width: 25
         height: 35
       spriteId: a21cc592d03a7a148a2c3ffff566d002
-    - name: Wizard_Frame_43
+    - name: Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 35
         width: 25
         height: 35
       spriteId: 829967b0c91fbbb47b0cd9827f2c9f23
-    - name: Wizard_Frame_44
+    - name: Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 33
         width: 28
         height: 39
       spriteId: 4ce0ae1c2b1daba4da51753cb9d7457f
-    - name: Wizard_Frame_63
+    - name: Frame_63
       frameIndex: 63
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 42
         width: 22
         height: 13
       spriteId: 45930989c4c2a72469851247306095cb
-    - name: Wizard_Frame_64
+    - name: Frame_64
       frameIndex: 64
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 42
         width: 20
         height: 13
       spriteId: 6ee83e9eff30d8b41997609004abbb30
-    - name: Wizard_Frame_65
+    - name: Frame_65
       frameIndex: 65
+      additiveSortOrder: 0
       cellRect:
         x: 38
         y: 41
         width: 24
         height: 15
       spriteId: 391c493a352f70547b67c5163c933bd0
-    - name: Wizard_Frame_66
+    - name: Frame_66
       frameIndex: 66
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 41
         width: 21
         height: 15
       spriteId: af9d8a61db7ef644fa0dbaa59c24eb84
-    - name: Wizard_Frame_67
+    - name: Frame_67
       frameIndex: 67
+      additiveSortOrder: 0
       cellRect:
         x: 48
         y: 42
         width: 14
         height: 14
       spriteId: 9e0b8641dde3c404baf56cbd48a5c1df
-    - name: Wizard_Frame_68
+    - name: Frame_68
       frameIndex: 68
+      additiveSortOrder: 0
       cellRect:
         x: 45
         y: 39
         width: 19
         height: 19
       spriteId: 83cfc5868d73bae41b772c8d9bd9edcb
-    - name: Wizard_Frame_69
+    - name: Frame_69
       frameIndex: 69
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 37
@@ -2365,7 +2533,10 @@ ScriptedImporter:
         height: 22
       spriteId: 06a450f044540be4aa690ba2e08918d6
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -2395,3 +2566,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 100, y: 100}
+  previousTextureSize: {x: 256, y: 512}

@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -83,6 +84,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
@@ -96,6 +99,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   importFileNodeState: 1
   platformSettingsDirtyTick: 0
   textureAssetName: 
@@ -105,6 +110,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +132,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.6}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 141
@@ -146,6 +153,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.6}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 141
@@ -166,6 +174,7 @@ ScriptedImporter:
     pivot: {x: 0.24137928, y: -1.4814814}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 47
@@ -186,6 +195,7 @@ ScriptedImporter:
     pivot: {x: 0.21874997, y: -2.3529413}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 91
@@ -206,6 +216,7 @@ ScriptedImporter:
     pivot: {x: 0.21874997, y: -2.6666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 47
@@ -226,6 +237,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.6}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 141
@@ -246,6 +258,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.5384616}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 91
@@ -266,6 +279,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.5384616}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 91
@@ -286,6 +300,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.5384616}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 91
@@ -306,6 +321,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.5384616}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 91
@@ -326,6 +342,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.6}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 141
@@ -346,6 +363,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.5384616}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 141
@@ -366,6 +384,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.6}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 141
@@ -386,6 +405,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.6666666}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 170
@@ -406,6 +426,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.6}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 170
@@ -426,6 +447,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.4814814}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 47
@@ -446,6 +468,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.5384616}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 141
@@ -466,6 +489,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.6666666}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 170
@@ -486,6 +510,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.6}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 170
@@ -506,6 +531,7 @@ ScriptedImporter:
     pivot: {x: 0.30434778, y: -1.6956521}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 170
@@ -526,6 +552,7 @@ ScriptedImporter:
     pivot: {x: 0.25925922, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 47
@@ -546,6 +573,7 @@ ScriptedImporter:
     pivot: {x: 0.40740746, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 91
@@ -566,6 +594,7 @@ ScriptedImporter:
     pivot: {x: 0.16666664, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 91
@@ -586,6 +615,7 @@ ScriptedImporter:
     pivot: {x: 0.17948717, y: -1.7727271}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 91
@@ -606,6 +636,7 @@ ScriptedImporter:
     pivot: {x: 0.21212119, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 47
@@ -626,6 +657,7 @@ ScriptedImporter:
     pivot: {x: 0.21212119, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 47
@@ -646,6 +678,7 @@ ScriptedImporter:
     pivot: {x: 0.33333328, y: -1.6}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 170
@@ -666,6 +699,7 @@ ScriptedImporter:
     pivot: {x: 0.32258064, y: -1.3103448}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -686,6 +720,7 @@ ScriptedImporter:
     pivot: {x: 0.38888884, y: -1.2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 47
@@ -706,6 +741,7 @@ ScriptedImporter:
     pivot: {x: 0.35483876, y: -1.09375}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -726,6 +762,7 @@ ScriptedImporter:
     pivot: {x: 0.31428576, y: -0.9428572}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -746,6 +783,7 @@ ScriptedImporter:
     pivot: {x: 0.32258064, y: -1.3103448}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -766,6 +804,7 @@ ScriptedImporter:
     pivot: {x: 0.38888884, y: -1.2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 47
@@ -786,6 +825,7 @@ ScriptedImporter:
     pivot: {x: 0.35483876, y: -1.09375}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -806,6 +846,7 @@ ScriptedImporter:
     pivot: {x: 0.31428576, y: -0.9428572}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -826,6 +867,7 @@ ScriptedImporter:
     pivot: {x: 0.36842102, y: -1.5384616}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 170
@@ -846,6 +888,7 @@ ScriptedImporter:
     pivot: {x: 0.36842102, y: -1.5384616}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 201
@@ -866,6 +909,7 @@ ScriptedImporter:
     pivot: {x: 0.36842102, y: -1.5384616}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 201
@@ -886,6 +930,7 @@ ScriptedImporter:
     pivot: {x: 0.36842102, y: -1.5384616}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 201
@@ -902,320 +947,365 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 201, y: 72}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -584312185
+    uuid:
+      value0: 1415759203
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 1415759203
     name: Armored Skeleton
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Armored Skeleton_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 25
       spriteId: b1dae2c823f4b0745960a4a1ad64be96
-    - name: Armored Skeleton_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 25
       spriteId: ab498a04df003234f844a77876944679
-    - name: Armored Skeleton_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 29
         height: 27
       spriteId: d3440928d9f3f064d9a354de9ffe5986
-    - name: Armored Skeleton_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 32
         height: 17
       spriteId: 3d936182e70646140b2dba59866e5b45
-    - name: Armored Skeleton_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 32
         height: 15
       spriteId: ae10d1221e7cf434ead1d06b8f3d02f5
-    - name: Armored Skeleton_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 25
       spriteId: dd0f5b40d7355ed49b6ab4f0f2c9d61a
-    - name: Armored Skeleton_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 26
       spriteId: 3f074c9b699403e44b2ebca88c67b305
-    - name: Armored Skeleton_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 26
       spriteId: 38250dd1cc016cf4fbbabe0842c1f329
-    - name: Armored Skeleton_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 26
       spriteId: 528e5b0f1eed107489a72f709ef9c82e
-    - name: Armored Skeleton_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 26
       spriteId: a8f995cccfc2c224fba02b76df6f2b9d
-    - name: Armored Skeleton_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 25
       spriteId: fc104dc61c0ecf3408a6a90ada01d95a
-    - name: Armored Skeleton_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 26
       spriteId: 7b21becae815210488f3a34d3f16564d
-    - name: Armored Skeleton_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 25
       spriteId: b4ff09b9eb4fd4946bb599a766153273
-    - name: Armored Skeleton_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 24
       spriteId: df2b9b7ad3c896143a5fa825f50af0df
-    - name: Armored Skeleton_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 25
       spriteId: 4c6698431ad50c340845219ed0d352d2
-    - name: Armored Skeleton_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 27
       spriteId: 34dbece705ecd1048820185e4ad8c214
-    - name: Armored Skeleton_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 26
       spriteId: a4df082c6b948ce48a133e9c321afbfd
-    - name: Armored Skeleton_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 24
       spriteId: 5624da2395e2a664bb0d783cd53aa663
-    - name: Armored Skeleton_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 25
       spriteId: 1168ea1cec79033419fa1d03bb4d85f4
-    - name: Armored Skeleton_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 39
         width: 23
         height: 23
       spriteId: ff87555c51d28614aa7fd5c5bbb8fdea
-    - name: Armored Skeleton_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 27
         height: 21
       spriteId: c0ac1f375c353754d8df9cbe29aed74f
-    - name: Armored Skeleton_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 40
         width: 27
         height: 21
       spriteId: c0d161ee39dff6545ad8bc5e3d108954
-    - name: Armored Skeleton_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 42
         height: 21
       spriteId: a73b2623138cf064c9a76279a80c2628
-    - name: Armored Skeleton_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 39
         width: 39
         height: 22
       spriteId: 93a24793a1f069847a2b344f153eacf0
-    - name: Armored Skeleton_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 33
         height: 21
       spriteId: 79ae39d0a5dd51b49800c47d92269f62
-    - name: Armored Skeleton_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 33
         height: 21
       spriteId: 7da8824ed1882504aa80f0df7a85548c
-    - name: Armored Skeleton_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 21
         height: 25
       spriteId: 6a5c0be8fcad99940b77e1338d426bfc
-    - name: Armored Skeleton_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 38
         width: 31
         height: 29
       spriteId: c4ea3c897f34ec240a150bb0c02f40bb
-    - name: Armored Skeleton_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 36
         y: 36
         width: 36
         height: 30
       spriteId: 145e10da036988f488d62e7c2aab7186
-    - name: Armored Skeleton_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 35
         width: 31
         height: 32
       spriteId: 289ce840bc392b546a2c122c1e47eb4d
-    - name: Armored Skeleton_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 33
         width: 35
         height: 35
       spriteId: 12f1ca47f45033646815b46134df241d
-    - name: Armored Skeleton_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 38
         width: 31
         height: 29
       spriteId: f2401ca4fc2c0254d8913f30ee30a86b
-    - name: Armored Skeleton_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 36
         y: 36
         width: 36
         height: 30
       spriteId: 35acdc1161d2b974591faa74000286f1
-    - name: Armored Skeleton_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 35
         width: 31
         height: 32
       spriteId: 11dc7e5fca212bd49be93e320f1ba3a1
-    - name: Armored Skeleton_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 33
         width: 35
         height: 35
       spriteId: 9b9d91770d84e8b4daa60a1d15e56268
-    - name: Armored Skeleton_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 19
         height: 26
       spriteId: de8c65607182fca40b31fee74e7d4644
-    - name: Armored Skeleton_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 19
         height: 26
       spriteId: 5a665f9d92a38014e9448de253f28577
-    - name: Armored Skeleton_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 19
         height: 26
       spriteId: 4101ae31581ad4e4a935d64e45d2ea95
-    - name: Armored Skeleton_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
@@ -1223,9 +1313,13 @@ ScriptedImporter:
         height: 26
       spriteId: 9f09dec22098d904687ae4d956b7284b
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 100, y: 100}
+  previousTextureSize: {x: 256, y: 256}

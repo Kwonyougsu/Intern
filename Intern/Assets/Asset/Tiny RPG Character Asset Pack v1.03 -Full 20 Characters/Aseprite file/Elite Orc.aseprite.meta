@@ -43,6 +43,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -118,6 +119,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
@@ -131,6 +134,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   importFileNodeState: 1
   platformSettingsDirtyTick: 638728347033938728
   textureAssetName: 
@@ -140,6 +145,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -158,9 +164,10 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Elite Orc_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 217
@@ -178,9 +185,10 @@ ScriptedImporter:
     uvTransform: {x: 217, y: 127}
   - name: Elite Orc_Frame_21
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 253
@@ -198,9 +206,10 @@ ScriptedImporter:
     uvTransform: {x: 253, y: 127}
   - name: Elite Orc_Frame_32
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 289
@@ -218,9 +227,10 @@ ScriptedImporter:
     uvTransform: {x: 289, y: 127}
   - name: Elite Orc_Frame_33
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.49999997, y: -1.111111}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -238,9 +248,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 212}
   - name: Elite Orc_Frame_34
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.59090906, y: -0.9302325}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -258,9 +269,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 127}
   - name: Elite Orc_Frame_35
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.64285713, y: -1}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 478
@@ -278,9 +290,10 @@ ScriptedImporter:
     uvTransform: {x: 478, y: 4}
   - name: Elite Orc_Frame_36
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.13157898, y: -0.88888896}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -298,9 +311,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Elite Orc_Frame_37
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.12820517, y: -0.9069767}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 50
@@ -318,9 +332,10 @@ ScriptedImporter:
     uvTransform: {x: 50, y: 4}
   - name: Elite Orc_Frame_38
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.12820517, y: -1.8571428}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 270
@@ -338,9 +353,10 @@ ScriptedImporter:
     uvTransform: {x: 270, y: 89}
   - name: Elite Orc_Frame_39
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.24999997, y: -1.6666666}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 220
@@ -358,9 +374,10 @@ ScriptedImporter:
     uvTransform: {x: 220, y: 178}
   - name: Elite Orc_Frame_40
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.24999997, y: -1.6666666}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 256
@@ -378,9 +395,10 @@ ScriptedImporter:
     uvTransform: {x: 256, y: 178}
   - name: Elite Orc_Frame_41
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.34482756, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 69
@@ -398,9 +416,10 @@ ScriptedImporter:
     uvTransform: {x: 69, y: 127}
   - name: Elite Orc_Frame_45
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 325
@@ -418,9 +437,10 @@ ScriptedImporter:
     uvTransform: {x: 325, y: 127}
   - name: Elite Orc_Frame_46
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.16666667, y: -1.4285715}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 189
@@ -438,9 +458,10 @@ ScriptedImporter:
     uvTransform: {x: 189, y: 89}
   - name: Elite Orc_Frame_47
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.20000002, y: -1.6666666}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -458,9 +479,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 57}
   - name: Elite Orc_Frame_48
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.11428569, y: -2.222222}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 292
@@ -478,9 +500,10 @@ ScriptedImporter:
     uvTransform: {x: 292, y: 178}
   - name: Elite Orc_Frame_1
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 361
@@ -498,9 +521,10 @@ ScriptedImporter:
     uvTransform: {x: 361, y: 127}
   - name: Elite Orc_Frame_2
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.4814814}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 354
@@ -518,9 +542,10 @@ ScriptedImporter:
     uvTransform: {x: 354, y: 89}
   - name: Elite Orc_Frame_3
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.4814814}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 390
@@ -538,9 +563,10 @@ ScriptedImporter:
     uvTransform: {x: 390, y: 89}
   - name: Elite Orc_Frame_4
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 397
@@ -558,9 +584,10 @@ ScriptedImporter:
     uvTransform: {x: 397, y: 127}
   - name: Elite Orc_Frame_5
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 433
@@ -578,9 +605,10 @@ ScriptedImporter:
     uvTransform: {x: 433, y: 127}
   - name: Elite Orc_Frame_6
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 469
@@ -598,9 +626,10 @@ ScriptedImporter:
     uvTransform: {x: 469, y: 127}
   - name: Elite Orc_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.4814814}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 426
@@ -618,9 +647,10 @@ ScriptedImporter:
     uvTransform: {x: 426, y: 89}
   - name: Elite Orc_Frame_8
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -638,9 +668,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 178}
   - name: Elite Orc_Frame_9
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.6}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 148
@@ -658,9 +689,10 @@ ScriptedImporter:
     uvTransform: {x: 148, y: 178}
   - name: Elite Orc_Frame_10
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 40
@@ -678,9 +710,10 @@ ScriptedImporter:
     uvTransform: {x: 40, y: 178}
   - name: Elite Orc_Frame_11
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.4814814}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 462
@@ -698,9 +731,10 @@ ScriptedImporter:
     uvTransform: {x: 462, y: 89}
   - name: Elite Orc_Frame_12
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 76
@@ -718,9 +752,10 @@ ScriptedImporter:
     uvTransform: {x: 76, y: 178}
   - name: Elite Orc_Frame_13
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.6}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 184
@@ -738,9 +773,10 @@ ScriptedImporter:
     uvTransform: {x: 184, y: 178}
   - name: Elite Orc_Frame_14
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.28571433, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 112
@@ -758,9 +794,10 @@ ScriptedImporter:
     uvTransform: {x: 112, y: 178}
   - name: Elite Orc_Frame_15
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.2758621, y: -1.4814814}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 317
@@ -778,9 +815,10 @@ ScriptedImporter:
     uvTransform: {x: 317, y: 89}
   - name: Elite Orc_Frame_16
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.6666667, y: -1.25}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 34
@@ -798,9 +836,10 @@ ScriptedImporter:
     uvTransform: {x: 34, y: 127}
   - name: Elite Orc_Frame_17
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.24390243, y: -1.1666666}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 217
@@ -818,9 +857,10 @@ ScriptedImporter:
     uvTransform: {x: 217, y: 4}
   - name: Elite Orc_Frame_18
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.27777776, y: -1.1666666}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -838,9 +878,10 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 89}
   - name: Elite Orc_Frame_19
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.47619045, y: -1.3214285}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 32
@@ -858,9 +899,10 @@ ScriptedImporter:
     uvTransform: {x: 32, y: 212}
   - name: Elite Orc_Frame_20
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.49999997, y: -1.2758621}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 61
@@ -878,9 +920,10 @@ ScriptedImporter:
     uvTransform: {x: 61, y: 212}
   - name: Elite Orc_Frame_22
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.20512825, y: -1.4814814}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 48
@@ -898,9 +941,10 @@ ScriptedImporter:
     uvTransform: {x: 48, y: 89}
   - name: Elite Orc_Frame_23
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.5192307, y: -1.4814814}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 97
@@ -918,9 +962,10 @@ ScriptedImporter:
     uvTransform: {x: 97, y: 4}
   - name: Elite Orc_Frame_24
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.59999996, y: -1.4814814}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 266
@@ -938,9 +983,10 @@ ScriptedImporter:
     uvTransform: {x: 266, y: 4}
   - name: Elite Orc_Frame_25
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.37777776, y: -1.4814814}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 319
@@ -958,9 +1004,10 @@ ScriptedImporter:
     uvTransform: {x: 319, y: 4}
   - name: Elite Orc_Frame_26
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.20512825, y: -1.4814814}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 95
@@ -978,9 +1025,10 @@ ScriptedImporter:
     uvTransform: {x: 95, y: 89}
   - name: Elite Orc_Frame_27
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.5192307, y: -1.4814814}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 157
@@ -998,9 +1046,10 @@ ScriptedImporter:
     uvTransform: {x: 157, y: 4}
   - name: Elite Orc_Frame_28
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.59999996, y: -1.4814814}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 372
@@ -1018,9 +1067,10 @@ ScriptedImporter:
     uvTransform: {x: 372, y: 4}
   - name: Elite Orc_Frame_29
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.37777776, y: -1.4814814}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 425
@@ -1038,9 +1088,10 @@ ScriptedImporter:
     uvTransform: {x: 425, y: 4}
   - name: Elite Orc_Frame_30
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.20512825, y: -1.4814814}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -1058,9 +1109,10 @@ ScriptedImporter:
     uvTransform: {x: 142, y: 89}
   - name: Elite Orc_Frame_31
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.24137928, y: -1.2}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 233
@@ -1078,9 +1130,10 @@ ScriptedImporter:
     uvTransform: {x: 233, y: 89}
   - name: Elite Orc_Frame_42
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.34482756, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 106
@@ -1098,9 +1151,10 @@ ScriptedImporter:
     uvTransform: {x: 106, y: 127}
   - name: Elite Orc_Frame_43
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.34482756, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 143
@@ -1118,9 +1172,10 @@ ScriptedImporter:
     uvTransform: {x: 143, y: 127}
   - name: Elite Orc_Frame_44
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.34482756, y: -1.5384616}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 180
@@ -1137,400 +1192,455 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 180, y: 127}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1095514159
+    uuid:
+      value0: 3821710251
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -473257045
     name: Elite Orc
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Elite Orc_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 26
       spriteId: 5238b7f423ca80447b990e15068978b2
-    - name: Elite Orc_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 26
       spriteId: ba74a644263ba104482dc880b27b7a1b
-    - name: Elite Orc_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 26
       spriteId: d20d3a5abbf795143bcbfda30828019b
-    - name: Elite Orc_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 20
         height: 36
       spriteId: 2f3fad9276427af4fb94463d03406185
-    - name: Elite Orc_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 37
         y: 40
         width: 22
         height: 43
       spriteId: d157b0b6f5bfc15499c81e5e0ff6faec
-    - name: Elite Orc_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 32
         y: 40
         width: 28
         height: 40
       spriteId: 18e274c1b2b3dc141b4b5495b723e147
-    - name: Elite Orc_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 45
         y: 40
         width: 38
         height: 45
       spriteId: 9a0859eb9ff7d1147841be32c0f82fb4
-    - name: Elite Orc_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 45
         y: 39
         width: 39
         height: 43
       spriteId: 8d96dde39a9bcb04aa042e671f997ade
-    - name: Elite Orc_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 45
         y: 39
         width: 39
         height: 21
       spriteId: 454aed0c6c6ef8a4aa6f751df780c652
-    - name: Elite Orc_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 28
         height: 24
       spriteId: edea91504e75f634eb58c470971731c5
-    - name: Elite Orc_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 28
         height: 24
       spriteId: 252809ca6b97c234c992d33bebcabec3
-    - name: Elite Orc_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 29
         height: 26
       spriteId: eccfd70c6eefa864e9b04ae6c572dd5c
-    - name: Elite Orc_Frame_45
+    - name: Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 26
       spriteId: 5da254e3e2f243442a1f97a1d0451b25
-    - name: Elite Orc_Frame_46
+    - name: Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 44
         y: 40
         width: 36
         height: 28
       spriteId: e6323a2535c62f844ad9d31b7a2e9864
-    - name: Elite Orc_Frame_47
+    - name: Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 40
         width: 45
         height: 24
       spriteId: 5dbbf9285b089414aadd7349734b8b71
-    - name: Elite Orc_Frame_48
+    - name: Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 46
         y: 40
         width: 35
         height: 18
       spriteId: 6971e8ff444f81d4aab1c30f68a03c2b
-    - name: Elite Orc_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 26
       spriteId: 84883611f0f17d145aae8eccbcb144df
-    - name: Elite Orc_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 27
       spriteId: 1a577ac0f85f04543b37ccecfa494725
-    - name: Elite Orc_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 27
       spriteId: d2313eeef685aa144b4b79d67f3f94dc
-    - name: Elite Orc_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 26
       spriteId: 648d88fa20d2c5c4b99f79f68bc3f71e
-    - name: Elite Orc_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 26
       spriteId: 3134bb3e8e436cd42a46eadbfc965057
-    - name: Elite Orc_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 26
       spriteId: 3116bebfcea0c0b468823e1e76a66aff
-    - name: Elite Orc_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 27
       spriteId: 2a191f314b3e6d0449c6c3e8bd3b977c
-    - name: Elite Orc_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 26
       spriteId: 092ca14d6ee10464e8aaeba3d2195878
-    - name: Elite Orc_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 25
       spriteId: 2f759daf4a73f37498004eec073cedb3
-    - name: Elite Orc_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 26
       spriteId: df8a27c450a44a74f908959056ac10fe
-    - name: Elite Orc_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 27
       spriteId: aa4e797e733f9e440b5faf675d518a85
-    - name: Elite Orc_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 26
       spriteId: 39e1bf7656ebedd43ac0d93e56ef115f
-    - name: Elite Orc_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 25
       spriteId: 0730a3c2cb5e4f547a2813bafb141f80
-    - name: Elite Orc_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 28
         height: 26
       spriteId: 9f7eb425e48bbfb4891500e630b66b5b
-    - name: Elite Orc_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 29
         height: 27
       spriteId: d887557fcccf7174ab25fae815f2f985
-    - name: Elite Orc_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 32
         y: 40
         width: 27
         height: 32
       spriteId: 49be4d5660a4b694a82c60f983a065fa
-    - name: Elite Orc_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 35
         width: 41
         height: 30
       spriteId: d46d55fbdab92004caaba2b2c5968e04
-    - name: Elite Orc_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 35
         width: 36
         height: 30
       spriteId: d288303c62f508f4eba803525365535f
-    - name: Elite Orc_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 37
         width: 21
         height: 28
       spriteId: 18a12773f05032143a021deab72d56ad
-    - name: Elite Orc_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 37
         width: 20
         height: 29
       spriteId: a15f152a97c105140827da5b0f0f4bdb
-    - name: Elite Orc_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 39
         height: 27
       spriteId: 702e0ad7e2ec06746a85fcc811c8a399
-    - name: Elite Orc_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 40
         width: 52
         height: 27
       spriteId: 9b2825919c3a21c40b6a61831b8b1190
-    - name: Elite Orc_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 40
         width: 45
         height: 27
       spriteId: 27dde8638d2c39b43b4ba70171ccb505
-    - name: Elite Orc_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 33
         y: 40
         width: 45
         height: 27
       spriteId: c407d2acff51ec744a445f96f9e2b02c
-    - name: Elite Orc_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 39
         height: 27
       spriteId: 66fd6e5c888779c4895cfd8327ea0395
-    - name: Elite Orc_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 40
         width: 52
         height: 27
       spriteId: c9ab6a5c00d0c334984f9a71d5fb3d82
-    - name: Elite Orc_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 23
         y: 40
         width: 45
         height: 27
       spriteId: 1205c951ee9be544fa3b62126b914f58
-    - name: Elite Orc_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 33
         y: 40
         width: 45
         height: 27
       spriteId: 3417c7073e4a64e4798cd76149035700
-    - name: Elite Orc_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 39
         height: 27
       spriteId: 1cd2e2dc3905a294099a291564bb6af1
-    - name: Elite Orc_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 36
         width: 29
         height: 30
       spriteId: 5d4ff2dc1a203f34f89b4c3d76638f50
-    - name: Elite Orc_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 29
         height: 26
       spriteId: 9aa1587a67ee98645be10bdc5de7e2c0
-    - name: Elite Orc_Frame_43
+    - name: Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 29
         height: 26
       spriteId: 5bbe156744d9ddb47a0df48070061bfa
-    - name: Elite Orc_Frame_44
+    - name: Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
@@ -1538,7 +1648,10 @@ ScriptedImporter:
         height: 26
       spriteId: 2a62a8573c9a47e4d9fbadf3b0f37ea1
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -1568,3 +1681,4 @@ ScriptedImporter:
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 100, y: 100}
+  previousTextureSize: {x: 512, y: 256}

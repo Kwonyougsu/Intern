@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -83,6 +84,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
@@ -96,6 +99,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   importFileNodeState: 1
   platformSettingsDirtyTick: 0
   textureAssetName: 
@@ -105,6 +110,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +132,7 @@ ScriptedImporter:
     pivot: {x: 0.29629633, y: -2.1052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 80
@@ -146,6 +153,7 @@ ScriptedImporter:
     pivot: {x: 0.29629633, y: -2.1052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 115
@@ -166,6 +174,7 @@ ScriptedImporter:
     pivot: {x: 0.26923072, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -186,6 +195,7 @@ ScriptedImporter:
     pivot: {x: 0.26923072, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 46
@@ -206,6 +216,7 @@ ScriptedImporter:
     pivot: {x: 0.26923072, y: -2.222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 226
@@ -226,6 +237,7 @@ ScriptedImporter:
     pivot: {x: 0.26923072, y: -2.222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 81
@@ -246,6 +258,7 @@ ScriptedImporter:
     pivot: {x: 0.29629633, y: -2.1052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 150
@@ -266,6 +279,7 @@ ScriptedImporter:
     pivot: {x: 0.26923072, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 80
@@ -286,6 +300,7 @@ ScriptedImporter:
     pivot: {x: 0.26923072, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 114
@@ -306,6 +321,7 @@ ScriptedImporter:
     pivot: {x: 0.4666666, y: -1.4285715}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 46
@@ -326,6 +342,7 @@ ScriptedImporter:
     pivot: {x: 0.4666666, y: -1.4814814}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 69
@@ -346,6 +363,7 @@ ScriptedImporter:
     pivot: {x: 0.20588233, y: -1.4814814}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -366,6 +384,7 @@ ScriptedImporter:
     pivot: {x: 0.20588233, y: -1.6}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 202
@@ -386,6 +405,7 @@ ScriptedImporter:
     pivot: {x: 0.24137928, y: -2.3529413}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 189
@@ -406,6 +426,7 @@ ScriptedImporter:
     pivot: {x: 0.26923072, y: -2.222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 115
@@ -426,6 +447,7 @@ ScriptedImporter:
     pivot: {x: 0.625, y: -2.1052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 78
@@ -446,6 +468,7 @@ ScriptedImporter:
     pivot: {x: 0.625, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 46
@@ -466,6 +489,7 @@ ScriptedImporter:
     pivot: {x: 0.625, y: -2.222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 110
@@ -486,6 +510,7 @@ ScriptedImporter:
     pivot: {x: 0.52631575, y: -2.222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 142
@@ -506,6 +531,7 @@ ScriptedImporter:
     pivot: {x: 0.2333333, y: -2.3529413}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 151
@@ -526,6 +552,7 @@ ScriptedImporter:
     pivot: {x: 0.32432434, y: -2.3529413}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 46
@@ -546,6 +573,7 @@ ScriptedImporter:
     pivot: {x: 0.20588233, y: -0.945946}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -566,6 +594,7 @@ ScriptedImporter:
     pivot: {x: 0.15909089, y: -1.590909}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 150
@@ -586,6 +615,7 @@ ScriptedImporter:
     pivot: {x: 0.15909089, y: -1.48}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 46
@@ -606,6 +636,7 @@ ScriptedImporter:
     pivot: {x: 0.21874997, y: -1.3214285}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -626,6 +657,7 @@ ScriptedImporter:
     pivot: {x: 0.15909089, y: -1.6956521}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 98
@@ -646,6 +678,7 @@ ScriptedImporter:
     pivot: {x: 0.22580643, y: -2.3529413}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -666,6 +699,7 @@ ScriptedImporter:
     pivot: {x: 0.30769235, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 148
@@ -686,6 +720,7 @@ ScriptedImporter:
     pivot: {x: 0.30769235, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 182
@@ -706,6 +741,7 @@ ScriptedImporter:
     pivot: {x: 0.30769235, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 216
@@ -726,6 +762,7 @@ ScriptedImporter:
     pivot: {x: 0.30769235, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 46
@@ -746,6 +783,7 @@ ScriptedImporter:
     pivot: {x: 0.29629633, y: -2.1052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 185
@@ -766,6 +804,7 @@ ScriptedImporter:
     pivot: {x: 0.3928572, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -786,6 +825,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -2.1052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -806,6 +846,7 @@ ScriptedImporter:
     pivot: {x: 0.5294118, y: -3.0769231}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 217
@@ -826,6 +867,7 @@ ScriptedImporter:
     pivot: {x: 0.29629633, y: -2.1052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 220
@@ -846,6 +888,7 @@ ScriptedImporter:
     pivot: {x: 0.29629633, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -866,6 +909,7 @@ ScriptedImporter:
     pivot: {x: 0.29629633, y: -2.1052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 46
@@ -886,6 +930,7 @@ ScriptedImporter:
     pivot: {x: 0.26923072, y: -2.222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 149
@@ -906,6 +951,7 @@ ScriptedImporter:
     pivot: {x: 0.26923072, y: -2.222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 183
@@ -926,6 +972,7 @@ ScriptedImporter:
     pivot: {x: 0.25925922, y: -2.1052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 81
@@ -946,6 +993,7 @@ ScriptedImporter:
     pivot: {x: 0.25925922, y: -2.1052632}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 116
@@ -966,6 +1014,7 @@ ScriptedImporter:
     pivot: {x: 0.29629633, y: -2.222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 46
@@ -986,6 +1035,7 @@ ScriptedImporter:
     pivot: {x: 1.2307692, y: -4.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 46
@@ -1002,360 +1052,410 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 46, y: 235}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1279150005
+    uuid:
+      value0: 2885332791
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: -1409634505
     name: Werewolf
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Werewolf_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 27
         height: 19
       spriteId: 51a8c870e449ddd428cf01404014a331
-    - name: Werewolf_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 27
         height: 19
       spriteId: 0b345859eabcf2041813a8d3c55577de
-    - name: Werewolf_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 26
         height: 20
       spriteId: 5a4accee2819df4419b1997e6ded65bc
-    - name: Werewolf_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 26
         height: 20
       spriteId: 44d5a99113d18bd49b8b42712dffa82a
-    - name: Werewolf_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 26
         height: 18
       spriteId: 1e18f2c624035c94eabe548466f53ba8
-    - name: Werewolf_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 26
         height: 18
       spriteId: cf6c193d7de6d994e98df6dbe0945e09
-    - name: Werewolf_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 27
         height: 19
       spriteId: 867b4a006be513d42b783df54fc6801e
-    - name: Werewolf_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 26
         height: 20
       spriteId: 2fb79f26dd26c2147a9a0c106135d132
-    - name: Werewolf_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 26
         height: 20
       spriteId: 844d792686f28cb44a4e4e9a47559e22
-    - name: Werewolf_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 15
         height: 28
       spriteId: dc0fef036c7af6643b347191c0e0db3c
-    - name: Werewolf_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 15
         height: 27
       spriteId: 49a9e56045d59504d95e58d29e4f182d
-    - name: Werewolf_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 34
         height: 27
       spriteId: cf8ea11884e68e1489802294402286e8
-    - name: Werewolf_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 34
         height: 25
       spriteId: 97cceb3e40becbc4287c587abe33958d
-    - name: Werewolf_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 29
         height: 17
       spriteId: 8798d307273bc8f4694036fb5371df76
-    - name: Werewolf_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 26
         height: 18
       spriteId: ecf738a0c80d8164087d89bc7de466ef
-    - name: Werewolf_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 40
         width: 24
         height: 19
       spriteId: 0eb7515c3811de340a3133704e04e52b
-    - name: Werewolf_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 40
         width: 24
         height: 20
       spriteId: e8fb4e10483fe3d4b955f70a3cb2d915
-    - name: Werewolf_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 35
         y: 40
         width: 24
         height: 18
       spriteId: 1dc7534378415c5469128cc79c98b7d1
-    - name: Werewolf_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 19
         height: 18
       spriteId: 3e0bcface7bea39429a266e20cd2c5c7
-    - name: Werewolf_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 30
         height: 17
       spriteId: 4fe9d3284872bda4c94cba26b6960d20
-    - name: Werewolf_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 38
         y: 40
         width: 37
         height: 17
       spriteId: 9208531d38da3044a8c44f3201050910
-    - name: Werewolf_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 35
         width: 34
         height: 37
       spriteId: fc8979afa5791fc4582c04c3612d9ce7
-    - name: Werewolf_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 35
         width: 44
         height: 22
       spriteId: 7379321d53079c241b26d7bddfbb90ae
-    - name: Werewolf_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 37
         width: 44
         height: 25
       spriteId: 7a129ab3f83dbf945b9c8154b362fece
-    - name: Werewolf_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 37
         width: 32
         height: 28
       spriteId: b76bbbbf09f5c3e4e967e7c17dcc4b14
-    - name: Werewolf_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 39
         width: 44
         height: 23
       spriteId: 4dd03dcdfb4f326409a576ecb333e095
-    - name: Werewolf_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 31
         height: 17
       spriteId: b0d85120fd19d574ba003a78cee9a48b
-    - name: Werewolf_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 26
         height: 20
       spriteId: fb5d26fb7f8a86644ad1128f52a580e4
-    - name: Werewolf_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 26
         height: 20
       spriteId: e76abc163b78d4f43b7a4b472f9cfaf4
-    - name: Werewolf_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 26
         height: 20
       spriteId: dc42ef340c776cc43ba74a382288a0bc
-    - name: Werewolf_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 26
         height: 20
       spriteId: dbe2351abde39a64e80d642ca21b87dc
-    - name: Werewolf_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 27
         height: 19
       spriteId: a3b11c1d87a1f1a439f9b612711453e0
-    - name: Werewolf_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 39
         y: 40
         width: 28
         height: 22
       spriteId: 016925f695af49d4c82b1a260254ac92
-    - name: Werewolf_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 34
         y: 40
         width: 32
         height: 19
       spriteId: 74bba1e21e383984d942eb1d1a4965e4
-    - name: Werewolf_Frame_43
+    - name: Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 32
         y: 40
         width: 34
         height: 13
       spriteId: 41ff70800ff42c5419309b612cfeb574
-    - name: Werewolf_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 27
         height: 19
       spriteId: 8eb3912851ccd9f4e8e3b94ef63941f7
-    - name: Werewolf_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 27
         height: 20
       spriteId: 3af22e97b4853e340831286b69de4885
-    - name: Werewolf_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 27
         height: 19
       spriteId: 80690fa0294e4ed41b2befcebcdc0816
-    - name: Werewolf_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 26
         height: 18
       spriteId: 97a534d800f429844a72ae4f3240ace1
-    - name: Werewolf_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 26
         height: 18
       spriteId: 3183fe4a05d2ea044a50a70a210dbe35
-    - name: Werewolf_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 27
         height: 19
       spriteId: 9b1f4f7ad20f9a3449835dac0214b71d
-    - name: Werewolf_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 27
         height: 19
       spriteId: e2f10a5f4b0d6814884a5b1906c45a01
-    - name: Werewolf_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 27
         height: 18
       spriteId: f27889ac3ecd66e4cbc799a5119781a5
-    - name: Werewolf_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 34
         y: 45
@@ -1363,9 +1463,13 @@ ScriptedImporter:
         height: 10
       spriteId: a3e524c1921517c40ad2e3fc55204e35
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 100, y: 100}
+  previousTextureSize: {x: 256, y: 256}

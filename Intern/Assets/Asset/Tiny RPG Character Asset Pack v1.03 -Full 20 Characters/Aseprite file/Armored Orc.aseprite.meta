@@ -8,6 +8,7 @@ ScriptedImporter:
   assetBundleName: 
   assetBundleVariant: 
   script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  importerVersion: 2
   textureImporterSettings:
     alphaSource: 1
     mipMapMode: 0
@@ -83,6 +84,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   asepriteImporterSettings:
     fileImportMode: 1
     importHiddenLayers: 0
@@ -96,6 +99,8 @@ ScriptedImporter:
     generateAnimationClips: 1
     addSortingGroup: 1
     addShadowCasters: 0
+    generateIndividualEvents: 1
+    generateSpriteAtlas: 1
   importFileNodeState: 1
   platformSettingsDirtyTick: 0
   textureAssetName: 
@@ -105,6 +110,7 @@ ScriptedImporter:
     pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 0
@@ -126,6 +132,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -146,6 +153,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -166,6 +174,7 @@ ScriptedImporter:
     pivot: {x: 0.35714284, y: -1.6666666}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -186,6 +195,7 @@ ScriptedImporter:
     pivot: {x: 0.5365854, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -206,6 +216,7 @@ ScriptedImporter:
     pivot: {x: 0.5609756, y: -2.857143}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -226,6 +237,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -246,6 +258,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.7391304}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -266,6 +279,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.7391304}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -286,6 +300,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -306,6 +321,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -326,6 +342,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -346,6 +363,7 @@ ScriptedImporter:
     pivot: {x: 0.29166663, y: -1.7391304}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -366,6 +384,7 @@ ScriptedImporter:
     pivot: {x: 0.29166663, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -386,6 +405,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -406,6 +426,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -426,6 +447,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.7391304}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -446,6 +468,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -466,6 +489,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -486,6 +510,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -506,6 +531,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.7391304}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -526,6 +552,7 @@ ScriptedImporter:
     pivot: {x: 0.38095245, y: -1.4814814}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 40
@@ -546,6 +573,7 @@ ScriptedImporter:
     pivot: {x: 0.50000006, y: -1.3793104}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -566,6 +594,7 @@ ScriptedImporter:
     pivot: {x: 0.28125, y: -1.4615384}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -586,6 +615,7 @@ ScriptedImporter:
     pivot: {x: 0.28125, y: -1.5833333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -606,6 +636,7 @@ ScriptedImporter:
     pivot: {x: 0.34615386, y: -1.5833333}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -626,6 +657,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -646,6 +678,7 @@ ScriptedImporter:
     pivot: {x: 0.25806457, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -666,6 +699,7 @@ ScriptedImporter:
     pivot: {x: 0.30769235, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 40
@@ -686,6 +720,7 @@ ScriptedImporter:
     pivot: {x: 0.36363643, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 43
@@ -706,6 +741,7 @@ ScriptedImporter:
     pivot: {x: 0.36363643, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 44
@@ -726,6 +762,7 @@ ScriptedImporter:
     pivot: {x: 0.24324326, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -746,6 +783,7 @@ ScriptedImporter:
     pivot: {x: 0.23684211, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -766,6 +804,7 @@ ScriptedImporter:
     pivot: {x: 0.23684211, y: -1.9047619}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -786,6 +825,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -806,6 +846,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -826,6 +867,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -846,6 +888,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -866,6 +909,7 @@ ScriptedImporter:
     pivot: {x: 0.33333337, y: -2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -886,6 +930,7 @@ ScriptedImporter:
     pivot: {x: 0.5777778, y: -1.5384616}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -906,6 +951,7 @@ ScriptedImporter:
     pivot: {x: 0.5, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -926,6 +972,7 @@ ScriptedImporter:
     pivot: {x: 0.46774197, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 4
@@ -946,6 +993,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 74
@@ -966,6 +1014,7 @@ ScriptedImporter:
     pivot: {x: 0.32000005, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -986,6 +1035,7 @@ ScriptedImporter:
     pivot: {x: 0.29166663, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -1006,6 +1056,7 @@ ScriptedImporter:
     pivot: {x: 0.29166663, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -1026,6 +1077,7 @@ ScriptedImporter:
     pivot: {x: 0.29166663, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 123
@@ -1046,6 +1098,7 @@ ScriptedImporter:
     pivot: {x: 0.38461536, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 40
@@ -1066,6 +1119,7 @@ ScriptedImporter:
     pivot: {x: 0.38461536, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 40
@@ -1086,6 +1140,7 @@ ScriptedImporter:
     pivot: {x: 0.38461536, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 40
@@ -1106,6 +1161,7 @@ ScriptedImporter:
     pivot: {x: 0.38461536, y: -1.8181819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
     rect:
       serializedVersion: 2
       x: 40
@@ -1122,408 +1178,464 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 40, y: 430}
   spriteSheetImportData: []
+  tileSetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1892967994
+    uuid:
+      value0: 2061576286
+      value1: 0
+      value2: 0
+      value3: 0
+    guid: 2061576286
     name: Armored Orc
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Armored Orc_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: d993f3edf24b73f44a68156797f1f6b1
-    - name: Armored Orc_Frame_46
+    - name: Frame_46
       frameIndex: 46
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: df8782d2a92ed404095808208b9ca954
-    - name: Armored Orc_Frame_47
+    - name: Frame_47
       frameIndex: 47
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 28
         height: 24
       spriteId: 7d6b6f78cb6a4fb43b7b0647618ee188
-    - name: Armored Orc_Frame_48
+    - name: Frame_48
       frameIndex: 48
+      additiveSortOrder: 0
       cellRect:
         x: 28
         y: 40
         width: 41
         height: 21
       spriteId: d4d0e62f7614bbf42a6c954af5ee66c1
-    - name: Armored Orc_Frame_49
+    - name: Frame_49
       frameIndex: 49
+      additiveSortOrder: 0
       cellRect:
         x: 27
         y: 40
         width: 41
         height: 14
       spriteId: 699763ac9d593824d98d3de44f178bd9
-    - name: Armored Orc_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: d28a13738b6954042b55127f8e2234db
-    - name: Armored Orc_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 23
       spriteId: d924231e9f0137544993b6121a332a07
-    - name: Armored Orc_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 23
       spriteId: f699dd4f0af7ce7479edf0115f3ad046
-    - name: Armored Orc_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: defdfdbffe6d46f4ea657fce35625568
-    - name: Armored Orc_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: 476a07d401bff1f4eaa47df185d300d9
-    - name: Armored Orc_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: 9c78a43847bea7b4788ea172710947f6
-    - name: Armored Orc_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 24
         height: 23
       spriteId: 0b749bbf230857a4a88364328405ba73
-    - name: Armored Orc_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 24
         height: 22
       spriteId: 91e2d357610fd3d4fafa0fa9b68c0ce9
-    - name: Armored Orc_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 21
       spriteId: 2939c4f71f3ec494da430775a6691e32
-    - name: Armored Orc_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: 692ab5ba85e2bf049b1c9f8f698039c5
-    - name: Armored Orc_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 23
       spriteId: 33772a3215cf60847b32645040cfca5c
-    - name: Armored Orc_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: 0fc66d10805f22747891daf4ac29eccc
-    - name: Armored Orc_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 21
       spriteId: 22efb2eab76381c448e6201a5c89f0f0
-    - name: Armored Orc_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: 2ea41aed58a2c07438cf1767f6bb75fd
-    - name: Armored Orc_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 23
       spriteId: a4dfd10030f363342bc1da20fbfa19b6
-    - name: Armored Orc_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 21
         height: 27
       spriteId: 9a08dc381ec5049458feb7a6fa8cdffb
-    - name: Armored Orc_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 16
         height: 29
       spriteId: ad941df08f59bba4385e9bc155d147ac
-    - name: Armored Orc_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 38
         width: 32
         height: 26
       spriteId: 3f3d5e8d9f2d5734d9b67c980bbda314
-    - name: Armored Orc_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 38
         width: 32
         height: 24
       spriteId: 83cd468e2eae11d4cb713e4a3d07a7a1
-    - name: Armored Orc_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 38
         width: 26
         height: 24
       spriteId: 8f4c1c6ca8bc8f4419d72e24886a28e4
-    - name: Armored Orc_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: 4f92ce9bf704a6540899ae44f959c5ab
-    - name: Armored Orc_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 31
         height: 22
       spriteId: 0be5285cee455b949ba1b3ef658647f2
-    - name: Armored Orc_Frame_23
+    - name: Frame_23
       frameIndex: 23
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 26
         height: 22
       spriteId: 38a4ae0b5cd0e734ea8ad342e14e8fa4
-    - name: Armored Orc_Frame_24
+    - name: Frame_24
       frameIndex: 24
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 22
         height: 21
       spriteId: ce3de43807effb549862422fab33fac6
-    - name: Armored Orc_Frame_25
+    - name: Frame_25
       frameIndex: 25
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 22
         height: 21
       spriteId: 7ebae1d9e3dd76346b0a5518de4966d9
-    - name: Armored Orc_Frame_26
+    - name: Frame_26
       frameIndex: 26
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 40
         width: 37
         height: 21
       spriteId: d1609f59e380bc54b9a4fb8a087a682b
-    - name: Armored Orc_Frame_27
+    - name: Frame_27
       frameIndex: 27
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 40
         width: 38
         height: 21
       spriteId: 60a2a49bec4f84a428f69cc0a1c75f77
-    - name: Armored Orc_Frame_28
+    - name: Frame_28
       frameIndex: 28
+      additiveSortOrder: 0
       cellRect:
         x: 41
         y: 40
         width: 38
         height: 21
       spriteId: 38724a609a82877499147a01b49ce067
-    - name: Armored Orc_Frame_29
+    - name: Frame_29
       frameIndex: 29
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: eb193978e7b2d964fb08ee9319440ac6
-    - name: Armored Orc_Frame_30
+    - name: Frame_30
       frameIndex: 30
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: eeca2ff2164a3de4da1f755793c822d8
-    - name: Armored Orc_Frame_31
+    - name: Frame_31
       frameIndex: 31
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: 461f1abc38efe4b44aabb79138582886
-    - name: Armored Orc_Frame_32
+    - name: Frame_32
       frameIndex: 32
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: ba52294b81421c849b724f6f06af8f35
-    - name: Armored Orc_Frame_33
+    - name: Frame_33
       frameIndex: 33
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 24
         height: 20
       spriteId: f82eeaecc206e9b469cd66213a45f213
-    - name: Armored Orc_Frame_34
+    - name: Frame_34
       frameIndex: 34
+      additiveSortOrder: 0
       cellRect:
         x: 24
         y: 40
         width: 45
         height: 26
       spriteId: c055a58110ce1d445a5c896c95d76a3b
-    - name: Armored Orc_Frame_35
+    - name: Frame_35
       frameIndex: 35
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 40
         width: 58
         height: 22
       spriteId: e71e1875699610d489a54d5a914dbb7b
-    - name: Armored Orc_Frame_36
+    - name: Frame_36
       frameIndex: 36
+      additiveSortOrder: 0
       cellRect:
         x: 21
         y: 40
         width: 62
         height: 22
       spriteId: 48467307db5ed1e41a6bfc99443bf30f
-    - name: Armored Orc_Frame_37
+    - name: Frame_37
       frameIndex: 37
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: 92aa6a383c8f986498075ef612e58a7e
-    - name: Armored Orc_Frame_38
+    - name: Frame_38
       frameIndex: 38
+      additiveSortOrder: 0
       cellRect:
         x: 42
         y: 40
         width: 25
         height: 22
       spriteId: c371a9ce2766d8c4294be4ca87c77d19
-    - name: Armored Orc_Frame_39
+    - name: Frame_39
       frameIndex: 39
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 24
         height: 22
       spriteId: dfe9d41e3f7999f4184d162874325272
-    - name: Armored Orc_Frame_40
+    - name: Frame_40
       frameIndex: 40
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 24
         height: 22
       spriteId: fefe221292d754f47b34f0d26589f97e
-    - name: Armored Orc_Frame_41
+    - name: Frame_41
       frameIndex: 41
+      additiveSortOrder: 0
       cellRect:
         x: 43
         y: 40
         width: 24
         height: 22
       spriteId: c776eed84d46ed84cb48557e66f6c17c
-    - name: Armored Orc_Frame_42
+    - name: Frame_42
       frameIndex: 42
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 26
         height: 22
       spriteId: 4ad017f20236a8b49aa31eff7c842869
-    - name: Armored Orc_Frame_43
+    - name: Frame_43
       frameIndex: 43
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 26
         height: 22
       spriteId: 2cad63ddfe404e14095a3b9189401501
-    - name: Armored Orc_Frame_44
+    - name: Frame_44
       frameIndex: 44
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
         width: 26
         height: 22
       spriteId: 395e1f82b6ca7154dad16c35f40c0e55
-    - name: Armored Orc_Frame_45
+    - name: Frame_45
       frameIndex: 45
+      additiveSortOrder: 0
       cellRect:
         x: 40
         y: 40
@@ -1531,9 +1643,13 @@ ScriptedImporter:
         height: 22
       spriteId: ea97e0402043b1740bd16bd1cb3819c6
     linkedCells: []
+    tileCells: []
+    tileSetIndex: 0
     parentIndex: -1
+  tileSets: []
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
   canvasSize: {x: 100, y: 100}
+  previousTextureSize: {x: 256, y: 512}

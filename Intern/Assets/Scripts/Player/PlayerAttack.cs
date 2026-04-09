@@ -5,12 +5,12 @@ public class PlayerAttack : MonoBehaviour
 {
     Player player;
     float attackRadius;
-    float attackCooldown;    // °ø°Ý ÄðÅ¸ÀÓ
-    float currenttime;        // ÄðÅ¸ÀÓÀ» À§ÇÑ º¯¼ö
+    float attackCooldown;    // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Å¸ï¿½ï¿½
+    float currenttime;        // ï¿½ï¿½Å¸ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 
     public ProjectileObjectPool ProjectileObjectPool;
     
-    //È£Ãâ¼ø¼­ ¹®Á¦·Î start
+    //È£ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ start
     private void Start()
     {
         player = GetComponent<Player>();
@@ -22,25 +22,25 @@ public class PlayerAttack : MonoBehaviour
 
     void Update()
     {
-        currenttime += Time.deltaTime; // ÄðÅ¸ÀÓ Ä«¿îÆÃ
+        currenttime += Time.deltaTime; // ï¿½ï¿½Å¸ï¿½ï¿½ Ä«ï¿½ï¿½ï¿½ï¿½
         AutoAttack();
     }
 
     private void AutoAttack()
     {
-        // ÄðÅ¸ÀÓ Ã¼Å©
+        // ï¿½ï¿½Å¸ï¿½ï¿½ Ã¼Å©
         if (currenttime < attackCooldown)
             return;
 
-        // °ø°Ý ¹üÀ§ ³» Àû Å½Áö
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ Å½ï¿½ï¿½
         Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, attackRadius, LayerMask.GetMask("Monster"));
 
         foreach (Collider2D hitCollider in hitColliders)
         {
-            if (hitCollider.CompareTag("Monster")) // Àû ÅÂ±× È®ÀÎ
+            if (hitCollider.CompareTag("Monster")) // ï¿½ï¿½ ï¿½Â±ï¿½ È®ï¿½ï¿½
             {
                 StartCoroutine(AttackWithDelay(hitCollider.transform.position));
-                currenttime = 0f;  // ÄðÅ¸ÀÓ ÃÊ±âÈ­
+                currenttime = 0f;  // ï¿½ï¿½Å¸ï¿½ï¿½ ï¿½Ê±ï¿½È­
                 break;
             }
         }
@@ -60,15 +60,15 @@ public class PlayerAttack : MonoBehaviour
 
             if (arrow != null)
             {
-                // È­»ì À§Ä¡¿Í ¹æÇâ ¼³Á¤
+                // È­ï¿½ï¿½ ï¿½ï¿½Ä¡ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
                 arrow.transform.position = transform.position;
                 Vector2 direction = Vector2.right;
 
                 Rigidbody2D rb = arrow.GetComponent<Rigidbody2D>();
                 if (rb != null)
                 {
-                    float arrowSpeed = 10f; // È­»ì ¼Óµµ
-                    rb.velocity = direction * arrowSpeed;
+                    float arrowSpeed = 10f; // È­ï¿½ï¿½ ï¿½Óµï¿½
+                    rb.linearVelocity = direction * arrowSpeed;
                 }
 
                 Arrow arrowComponent = arrow.GetComponent<Arrow>();
@@ -79,12 +79,12 @@ public class PlayerAttack : MonoBehaviour
             }
             else
             {
-                Debug.Log("È­»ì ¾øÀ½");
+                Debug.Log("È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½");
             }
         }
         else
         {
-            Debug.Log("¿ÀºêÁ§Æ® Ç® ¾øÀ½");
+            Debug.Log("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® Ç® ï¿½ï¿½ï¿½ï¿½");
         }
     }
 
@@ -95,7 +95,7 @@ public class PlayerAttack : MonoBehaviour
 
     private void OnDrawGizmosSelected()
     {
-        // °ø°Ý ¹üÀ§ ½Ã°¢È­
+        // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½È­
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRadius);
     }
