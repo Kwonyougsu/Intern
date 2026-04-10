@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     public Animator animator;
-    public GameObject endpanel;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -15,9 +13,7 @@ public class Player : MonoBehaviour
     {
         if (collision.CompareTag("Monster"))
         {
-            Time.timeScale = 0f;
-            endpanel.SetActive(true);
+            GameManager.Instance.OnPlayerDefeated();
         }
     }
-
 }

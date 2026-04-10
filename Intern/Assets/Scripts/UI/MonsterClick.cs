@@ -2,9 +2,8 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MonsterClick : MonoBehaviour
+public class MonsterClick : UIPanel
 {
-    public GameObject infoPanel;
     public GameObject blackScreen;
     public Image showmonsterImage;
     public TextMeshProUGUI monsterName;
@@ -12,35 +11,49 @@ public class MonsterClick : MonoBehaviour
     public TextMeshProUGUI monsterSpeed;
     public TextMeshProUGUI monsterHealth;
 
-    private void Start()
+    private Sprite pendingSprite;
+    private string pendingName;
+    private string pendingGrade;
+    private float pendingSpeed;
+    private int pendingHealth;
+
+    public override void ShowPanel()
     {
-        blackScreen.SetActive(false);
-        infoPanel.SetActive(false);
+        blackScreen.SetActive(true);
+        base.ShowPanel();
     }
 
-    public void ShowMonsterInfo(Sprite monsterimage,string name, string grade, float speed, int maxhealth)
+    public override void ClosePanel()
     {
+        blackScreen.SetActive(false);
+        base.ClosePanel();
+    }
+
+    public override void Setup()
+    {
+        base.Setup();
+        showmonsterImage.sprite = pendingSprite;
+        monsterName.text = "Ïù¥Î¶Ñ : " + pendingName;
+        monsterGrade.text = "Îì±Í∏â : " + pendingGrade;
+        monsterSpeed.text = "ÏÜçÎèÑ : " + pendingSpeed.ToString();
+        monsterHealth.text = "Ï≤¥Î†• : " + pendingHealth.ToString();
+    }
+
+    public void ShowMonsterInfo(Sprite sprite, string name, string grade, float speed, int maxhealth)
+    {
+        pendingSprite = sprite;
+        pendingName = name;
+        pendingGrade = grade;
+        pendingSpeed = speed;
+        pendingHealth = maxhealth;
+        isChangedData = true;
         Time.timeScale = 0f;
-        blackScreen.SetActive(true);
-        infoPanel.SetActive(true);
-        showmonsterImage.sprite = monsterimage;
-        monsterName.text = "¿Ã∏ß : " + name;
-        monsterGrade.text = "µÓ±ﬁ : " + grade;
-        monsterSpeed.text = "Ω∫««µÂ : " + speed.ToString();
-        monsterHealth.text = "√º∑¬ : " + maxhealth.ToString();
+        ShowPanel();
     }
 
     public void CloseInfoPanel()
     {
-        if(UIManager.Instance.speedUpBtn.speedupbtn.activeSelf)
-        {
-            Time.timeScale = 1f;
-        }
-        else Time.timeScale = 2f;
-
-        
-        blackScreen.SetActive(false);
-        infoPanel.SetActive(false);
+        UIManager.Instance.speedUpBtn.RestoreTimeScale();
+        ClosePanel();
     }
-
 }

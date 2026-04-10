@@ -1,29 +1,49 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : Singleton<GameManager>
 {
-    public ProjectileObjectPool projectileObjectPool;
-    public MonsterManager monsterManager;
-    public int monsterKillcount;
-    public int stageCount;
+    public int monsterKillcount { get; private set; }
+    public int stageCount { get; private set; }
+
     private void Start()
     {
         monsterKillcount = 0;
         stageCount = 1;
     }
-    protected override void Awake()
+
+    public void AddKill()
     {
-        projectileObjectPool = GetComponent<ProjectileObjectPool>();
-        monsterManager = GetComponent<MonsterManager>();
-    }
-    public void CountCheck()
-    {
-        if(monsterKillcount >= 5)
+        monsterKillcount++;
+        if (monsterKillcount >= 5)
         {
             Time.timeScale = 0f;
-            UIManager.Instance.endPanel.OpenPanel();
+            UIManager.Instance.stageClearPanel.ShowPanel();
         }
+    }
+
+    public void NextStage()
+    {
+        stageCount++;
+        monsterKillcount = 0;
+        UIManager.Instance.speedUpBtn.RestoreTimeScale();
+        UIManager.Instance.speedUpBtn.stagecountupdate();
+        PoolManager.Instance.Clear<Monster>();
+        MonsterManager.Instance.Restart();
+    }
+
+    public void OnPlayerDefeated()
+    {
+        Time.timeScale = 0f;
+        UIManager.Instance.gameOverPanel.ShowPanel();
+    }
+
+    public void RetryGame()
+    {
+        stageCount = 1;
+        monsterKillcount = 0;
+        UIManager.Instance.speedUpBtn.RestoreTimeScale();
+        UIManager.Instance.speedUpBtn.stagecountupdate();
+        PoolManager.Instance.Clear<Monster>();
+        MonsterManager.Instance.Restart();
     }
 }

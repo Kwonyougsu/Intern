@@ -3,50 +3,48 @@ using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
 {
-    Player player;
-    float attackRadius;
-    float attackCooldown;    // ���� ��Ÿ��
-    float currenttime;        // ��Ÿ���� ���� ����
+    public Arrow arrowPrefab;
+    public int arrowPoolSize = 10;
 
-    public ProjectileObjectPool ProjectileObjectPool;
-    
-    //ȣ����� ������ start
+    private Player player;
+    private float attackRadius;
+    private float attackCooldown;
+    private float currenttime;
+
     private void Start()
     {
         player = GetComponent<Player>();
-        ProjectileObjectPool = GameManager.Instance.projectileObjectPool;
         attackRadius = 14f;
         attackCooldown = 1f;
         currenttime = 0f;
+        PoolManager.Instance.RegisterPool<Arrow>(arrowPrefab, arrowPoolSize, new GameObject("ArrowPool").transform);
     }
 
-    void Update()
+    private void Update()
     {
-        currenttime += Time.deltaTime; // ��Ÿ�� ī����
+        currenttime += Time.deltaTime;
         AutoAttack();
     }
 
     private void AutoAttack()
     {
-        // ��Ÿ�� üũ
         if (currenttime < attackCooldown)
             return;
 
-        // ���� ���� �� �� Ž��
         Collider2D[] hitColliders = Physics2D.OverlapCircleAll(transform.position, attackRadius, LayerMask.GetMask("Monster"));
 
         foreach (Collider2D hitCollider in hitColliders)
         {
-            if (hitCollider.CompareTag("Monster")) // �� �±� Ȯ��
+            if (hitCollider.CompareTag("Monster"))
             {
-                StartCoroutine(AttackWithDelay(hitCollider.transform.position));
-                currenttime = 0f;  // ��Ÿ�� �ʱ�ȭ
+                StartCoroutine(AttackWithDelay());
+                currenttime = 0f;
                 break;
             }
         }
     }
 
-    private IEnumerator AttackWithDelay(Vector2 targetPosition)
+    private IEnumerator AttackWithDelay()
     {
         player.animator.SetTrigger("Attack");
         yield return null;
@@ -54,48 +52,26 @@ public class PlayerAttack : MonoBehaviour
 
     public void FireArrow()
     {
-        if (ProjectileObjectPool != null)
+        GameObject arrow = PoolManager.Instance.Get<Arrow>();
+        if (arrow == null)
         {
-            GameObject arrow = ProjectileObjectPool.PoolGetArrow();
-
-            if (arrow != null)
-            {
-                // ȭ�� ��ġ�� ���� ����
-                arrow.transform.position = transform.position;
-                Vector2 direction = Vector2.right;
-
-                Rigidbody2D rb = arrow.GetComponent<Rigidbody2D>();
-                if (rb != null)
-                {
-                    float arrowSpeed = 10f; // ȭ�� �ӵ�
-                    rb.linearVelocity = direction * arrowSpeed;
-                }
-
-                Arrow arrowComponent = arrow.GetComponent<Arrow>();
-                if (arrowComponent != null)
-                {
-                    arrowComponent.SetOwner(this);
-                }
-            }
-            else
-            {
-                Debug.Log("ȭ�� ����");
-            }
+            Debug.Log("화살 없음");
+            return;
         }
-        else
+
+        arrow.transform.position = transform.position;
+        arrow.SetActive(true);
+
+        Rigidbody2D rb = arrow.GetComponent<Rigidbody2D>();
+        if (rb != null)
         {
-            Debug.Log("������Ʈ Ǯ ����");
+            float arrowSpeed = 10f;
+            rb.linearVelocity = Vector2.right * arrowSpeed;
         }
-    }
-
-    public void ReturnArrowToPool(GameObject arrow)
-    {
-        ProjectileObjectPool.ReturnArrow(arrow);
     }
 
     private void OnDrawGizmosSelected()
     {
-        // ���� ���� �ð�ȭ
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackRadius);
     }

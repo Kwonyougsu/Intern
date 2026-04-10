@@ -1,4 +1,3 @@
-using System;
 using TMPro;
 using UnityEngine;
 
@@ -13,11 +12,12 @@ public class SpeedUpBtn : MonoBehaviour
     {
         stagecountupdate();
     }
+
     public void ToggleSpeed()
     {
         if (isSpeedUp)
         {
-            Time.timeScale = 1f;  
+            Time.timeScale = 1f;
             speedupbtn.SetActive(true);
             normalupbtn.SetActive(false);
         }
@@ -30,8 +30,14 @@ public class SpeedUpBtn : MonoBehaviour
 
         isSpeedUp = !isSpeedUp;
     }
+
+    public void RestoreTimeScale()
+    {
+        Time.timeScale = isSpeedUp ? 2f : 1f;
+    }
+
     public void stagecountupdate()
     {
-        stagecount.text = "Stage: "+GameManager.Instance.stageCount.ToString();
+        stagecount.text = "Stage: " + GameManager.Instance.stageCount.ToString();
     }
 }

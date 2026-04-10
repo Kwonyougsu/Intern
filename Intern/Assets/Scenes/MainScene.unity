@@ -207,8 +207,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1049792081}
-        m_TargetAssemblyTypeName: EndPanel, Assembly-CSharp
+      - m_Target: {fileID: 1352857083}
+        m_TargetAssemblyTypeName: StageClearPanel, Assembly-CSharp
         m_MethodName: Clickcontibtn
         m_Mode: 1
         m_Arguments:
@@ -282,7 +282,7 @@ Transform:
   m_GameObject: {fileID: 134784616}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.73, y: -2.95, z: 0.065966286}
+  m_LocalPosition: {x: 7.73, y: -2.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -546,7 +546,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -592,7 +592,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &401035600
 RectTransform:
   m_ObjectHideFlags: 0
@@ -625,7 +625,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edf2a67a9d5ffd445b6d9326cbc36891, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  infoPanel: {fileID: 1034968967}
   blackScreen: {fileID: 1006470344}
   showmonsterImage: {fileID: 243200857}
   monsterName: {fileID: 1190031734}
@@ -770,37 +769,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 469030150}
   m_CullTransparentMesh: 1
---- !u!1 &472371929
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 472371930}
-  m_Layer: 0
-  m_Name: Pool
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &472371930
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 472371929}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &485517267
 GameObject:
   m_ObjectHideFlags: 0
@@ -3209,6 +3177,52 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &599326374
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 599326375}
+  - component: {fileID: 599326376}
+  m_Layer: 0
+  m_Name: Spanwer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &599326375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599326374}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1452176913}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &599326376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599326374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4325b14e34f5cad4e8417f6b88719b87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterSpawner
+  Spawnpoint: {fileID: 134784616}
+  isMonsterAlive: 0
 --- !u!1 &696101668
 GameObject:
   m_ObjectHideFlags: 0
@@ -3378,7 +3392,6 @@ Transform:
   - {fileID: 868670117}
   - {fileID: 1452176913}
   - {fileID: 1956500289}
-  - {fileID: 1156027761}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &809422292
@@ -3488,7 +3501,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -3667,10 +3680,6 @@ GameObject:
   m_Component:
   - component: {fileID: 868670117}
   - component: {fileID: 868670116}
-  - component: {fileID: 868670120}
-  - component: {fileID: 868670119}
-  - component: {fileID: 868670118}
-  - component: {fileID: 868670121}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3690,10 +3699,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08784240beee675489bdc17189ee4cc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectileObjectPool: {fileID: 0}
-  monsterManager: {fileID: 0}
-  monsterKillcount: 0
-  stageCount: 0
 --- !u!4 &868670117
 Transform:
   m_ObjectHideFlags: 0
@@ -3709,61 +3714,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 736821366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &868670118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868670115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2a13a1f2ef39f04481d5f523c3f12ec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &868670119
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868670115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c94f4dd29053a2448005dc3fc562eff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  monsterList: []
---- !u!114 &868670120
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868670115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97ba1bed6ae69364dae40a7f56af1f2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  objectPool: {fileID: 0}
-  dataLoader: {fileID: 0}
-  Spawnpoint: {fileID: 134784616}
-  isMonsterAlive: 0
---- !u!114 &868670121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868670115}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a790bb53f67f47d4b92e58e4ea6052f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  arrowPrefab: {fileID: 2456265642835474987, guid: 2ea7b1d09b887b04cabbd8cc3da0e0bf, type: 3}
-  poolSize: 10
 --- !u!1 &886072554
 GameObject:
   m_ObjectHideFlags: 0
@@ -4342,7 +4292,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monsterClick: {fileID: 401035601}
-  endPanel: {fileID: 1049792081}
+  stageClearPanel: {fileID: 1352857083}
+  gameOverPanel: {fileID: 1318783653}
   speedUpBtn: {fileID: 1049792080}
 --- !u!4 &1048986125
 Transform:
@@ -4372,7 +4323,6 @@ GameObject:
   - component: {fileID: 1049792077}
   - component: {fileID: 1049792076}
   - component: {fileID: 1049792080}
-  - component: {fileID: 1049792081}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -4484,20 +4434,6 @@ MonoBehaviour:
   speedupbtn: {fileID: 985525540}
   normalupbtn: {fileID: 469030150}
   stagecount: {fileID: 696101670}
---- !u!114 &1049792081
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1049792075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bf94abaa1bbaa845b6f5d187246683b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stageclearpanel: {fileID: 1352857079}
-  endpanel: {fileID: 1318783649}
 --- !u!1 &1096167801
 GameObject:
   m_ObjectHideFlags: 0
@@ -4605,7 +4541,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -4714,37 +4650,6 @@ MonoBehaviour:
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
   m_ScrollDeltaPerTick: 6
---- !u!1 &1156027760
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1156027761}
-  m_Layer: 0
-  m_Name: DataManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1156027761
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1156027760}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 736821366}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1190031732
 GameObject:
   m_ObjectHideFlags: 0
@@ -5032,6 +4937,7 @@ GameObject:
   - component: {fileID: 1318783650}
   - component: {fileID: 1318783652}
   - component: {fileID: 1318783651}
+  - component: {fileID: 1318783653}
   m_Layer: 5
   m_Name: EndPanel
   m_TagString: Untagged
@@ -5097,6 +5003,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1318783649}
   m_CullTransparentMesh: 1
+--- !u!114 &1318783653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318783649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51cf4c956922a9742a3822d25af8d591, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameOverPanel
 --- !u!1 &1340575455
 GameObject:
   m_ObjectHideFlags: 0
@@ -5144,6 +5062,7 @@ GameObject:
   - component: {fileID: 1352857080}
   - component: {fileID: 1352857082}
   - component: {fileID: 1352857081}
+  - component: {fileID: 1352857083}
   m_Layer: 5
   m_Name: StageClearPanel
   m_TagString: Untagged
@@ -5211,6 +5130,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1352857079}
   m_CullTransparentMesh: 1
+--- !u!114 &1352857083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1352857079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c1cde02fcf438f4bb0da5de05c77c5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StageClearPanel
 --- !u!1 &1452176912
 GameObject:
   m_ObjectHideFlags: 0
@@ -5220,6 +5151,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1452176913}
+  - component: {fileID: 1452176914}
   m_Layer: 0
   m_Name: MonsterManager
   m_TagString: Untagged
@@ -5239,9 +5171,23 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 599326375}
   m_Father: {fileID: 736821366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1452176914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452176912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97ba1bed6ae69364dae40a7f56af1f2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MonsterManager
+  spawner: {fileID: 599326376}
 --- !u!1 &1482496236
 GameObject:
   m_ObjectHideFlags: 0
@@ -5349,7 +5295,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -5599,8 +5545,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1049792081}
-        m_TargetAssemblyTypeName: EndPanel, Assembly-CSharp
+      - m_Target: {fileID: 1352857083}
+        m_TargetAssemblyTypeName: StageClearPanel, Assembly-CSharp
         m_MethodName: Clickendbtn
         m_Mode: 1
         m_Arguments:
@@ -5971,7 +5917,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c85cff792e3b1044fa597dd5e7229ec0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ProjectileObjectPool: {fileID: 0}
+  arrowPrefab: {fileID: 1058276464498995814, guid: 2ea7b1d09b887b04cabbd8cc3da0e0bf, type: 3}
+  arrowPoolSize: 10
 --- !u!114 &1872193393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5985,7 +5932,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
-  endpanel: {fileID: 1318783649}
 --- !u!1 &1956500288
 GameObject:
   m_ObjectHideFlags: 0
@@ -5995,6 +5941,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1956500289}
+  - component: {fileID: 1956500290}
   m_Layer: 0
   m_Name: PoolManager
   m_TagString: Untagged
@@ -6017,6 +5964,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 736821366}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1956500290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956500288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c236c5c3dfe9b14a9f86039e3f66023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PoolManager
 --- !u!4 &2110006401 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 427225095343240367, guid: ebe550fe895d1ae419f5e465b42293b7, type: 3}
@@ -6382,4 +6341,3 @@ SceneRoots:
   - {fileID: 1049792079}
   - {fileID: 1048986125}
   - {fileID: 736821366}
-  - {fileID: 472371930}

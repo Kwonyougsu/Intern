@@ -1,18 +1,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MonsterDataLoader : MonoBehaviour
+public static class MonsterDataLoader
 {
-    public List<MonsterInfo> monsterList = new List<MonsterInfo>();
-
-    private void Awake()
+    public static List<MonsterInfo> Load(string fileName)
     {
-        LoadMonsterData("MonsterData"); // CSV ∆ƒ¿œ ¿Ã∏ß
-    }
-
-    private void LoadMonsterData(string fileName)
-    {
-        var csvData = CSVReader.Read(fileName); // CSV ¿–±‚
+        var monsterList = new List<MonsterInfo>();
+        var csvData = CSVReader.Read(fileName);
 
         foreach (var row in csvData)
         {
@@ -26,21 +20,13 @@ public class MonsterDataLoader : MonoBehaviour
                     row["Prefab"]
                 );
                 monsterList.Add(monster);
-
             }
             catch
             {
-                Debug.Log($"CSV ¿–¥¬µ• ø¿∑˘");
+                Debug.Log("CSV ÏùΩÎäîÎç∞ Ïã§Ìå®");
             }
         }
-    }
 
-    public MonsterInfo GetMonster(int index)
-    {
-        if (index >= 0 && index < monsterList.Count)
-        {
-            return monsterList[index];
-        }
-        return null;
+        return monsterList;
     }
 }

@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Xml.Linq;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -8,47 +7,44 @@ using UnityEngine.UI;
 public class Monster : MonoBehaviour, IPointerClickHandler
 {
     public MonsterStateMachine monsterstateMachine;
-    public MonsterManager monsterManager;
     public Animator animator;
+    public Image hpBar;
+    public event Action<GameObject> OnMonsterDeath;
 
-    public SpriteRenderer monsterImage;
     public string monsterName;
     public string grade;
     public float speed;
     public int maxHealth;
     public int currentHealth;
     public bool death;
-    public Image hpBar;
-    public event Action<GameObject> OnMonsterDeath;
-    public Sprite sendimage;
-    int stagecount;
+
+    private SpriteRenderer monsterImage;
+    private int baseHealth;
+    private float baseSpeed;
+
     private void Awake()
     {
         monsterstateMachine = new MonsterStateMachine(this);
         animator = GetComponent<Animator>();
-        monsterManager = GameManager.Instance.monsterManager;
         monsterImage = GetComponent<SpriteRenderer>();
-        stagecount = GameManager.Instance.stageCount;
     }
 
     public void Initialize(MonsterInfo info)
     {
         monsterName = info.Name;
         grade = info.Grade;
-        maxHealth = info.Health;
-        speed = info.Speed;
+        baseHealth = info.Health;
+        baseSpeed = info.Speed;
     }
 
     public void OnEnable()
     {
-        if(stagecount >= 2)
-        {
-            maxHealth = maxHealth * stagecount;
-            speed = speed * stagecount;
-        }
+        int stage = GameManager.Instance.stageCount;
+        maxHealth = stage >= 2 ? baseHealth * stage : baseHealth;
+        speed = stage >= 2 ? baseSpeed * stage : baseSpeed;
         currentHealth = maxHealth;
         death = false;
-        monsterstateMachine.ChangedState(monsterstateMachine.moveState);
+        monsterstateMachine.ChangeState(MonsterState.Move);
     }
 
     private void Update()
@@ -59,47 +55,32 @@ public class Monster : MonoBehaviour, IPointerClickHandler
     private void FixedUpdate()
     {
         if (!death)
-        {
             monsterstateMachine.Update();
-        }
     }
 
     public void TakeDamage(float damage)
     {
         if (death) return;
-
         currentHealth -= (int)damage;
-
         if (currentHealth <= 0)
-        {
             StartCoroutine(Die());
-        }
     }
 
-    public IEnumerator Die()
+    private IEnumerator Die()
     {
         death = true;
-        ResetAllBools();
+        animator.SetBool("Move", false);
         animator.SetBool("Die", true);
         yield return new WaitForSecondsRealtime(0.3f);
         gameObject.SetActive(false);
-        monsterManager.isMonsterAlive = false;
-        GameManager.Instance.monsterKillcount++;
-        GameManager.Instance.CountCheck();
-        OnMonsterDeath?.Invoke(this.gameObject);
-        yield return null;
-    }
-
-    public void ResetAllBools()
-    {
-        animator.SetBool("Move", false);
+        MonsterManager.Instance.OnMonsterDied();
+        GameManager.Instance.AddKill();
+        OnMonsterDeath?.Invoke(gameObject);
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        sendimage = monsterImage.sprite;
-        monsterName = monsterName.Replace("(clone)", "").Trim();
-        // 클릭 시 몬스터 정보 표시
-        UIManager.Instance.monsterClick.ShowMonsterInfo(sendimage, monsterName, grade, speed, maxHealth);
+        string displayName = monsterName.Replace("(clone)", "").Trim();
+        UIManager.Instance.monsterClick.ShowMonsterInfo(monsterImage.sprite, displayName, grade, speed, maxHealth);
     }
 }
